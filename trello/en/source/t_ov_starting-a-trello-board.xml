@@ -1,15 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
 <task xml:lang="en-US" id="t_starting-a-trello-board">
-    <title>Starting a Trello board</title>
-    <taskbody>
-        <context>
-            <p></p>
-        </context>
-        <steps>
-            <step>
-                <cmd></cmd>
-            </step>
-        </steps>
-    </taskbody>
+	<title>Starting a Trello board</title>
+	<shortdesc>To start using Trello, sign up and create your boards and organizations, or join other organizations if you want to collaborate on their boards.</shortdesc>
+	<taskbody>
+		<context>You can use Trello on PC and mobile devices. Most browsers and operating systems are supported.</context>
+	</taskbody>
 </task>

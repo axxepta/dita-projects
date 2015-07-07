@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd"> 
+<map xml:lang="en-US">
+	<title>Collaborating online in Trello</title>
+	<!-- sample DITA project -->
+	<!-- simple ditamap and more topics, with reltable, but without reuse, keys, filters -->
+	<topicmeta>
+		<author>@thinkDITA</author>
+		<publisher>PANTOPIX GmbH &amp; Co. KG</publisher>
+		<copyright>
+			<copyryear year="${date(YYYY)}"/>
+			<copyrholder>PANTOPIX GmbH &amp; Co. KG</copyrholder>
+		</copyright>
+	</topicmeta>
+	
+	<!-- ######## CONTENTS ######## -->
+	<topicref href="source/t_ov_planning-your-projects-with-trello.xml" navtitle="Planning your projects with Trello" format="dita" type="task">
+		<topicref href="source/t_keeping-to-do-lists.xml" navtitle="Keeping to-do lists" format="dita" type="task"/>
+		<topicref href="source/t_brainstorming.xml" navtitle="Brainstorming" format="dita" type="task"/>
+		<topicref href="source/t_voting.xml" navtitle="Voting" format="dita" type="task"/>
+		<topicref href="source/t_writing-drafts.xml" navtitle="Writing drafts" format="dita" type="task"/>
+		<topicref href="source/t_agile-boards.xml" navtitle="Agile boards" format="dita" type="task"/>
+	</topicref>
+	<topicref href="source/t_ov_starting-a-trello-board.xml" navtitle="Starting a Trello board" format="dita" type="task">
+		<topicref href="source/t_creating-an-user-account.xml" navtitle="Creating an user account" format="dita" type="task"/>
+		<topicref href="source/t_creating-a-personal-organization.xml" navtitle="Creating a personal organization" format="dita" type="task"/>
+		<topicref href="source/t_creating-a-business-organization.xml" navtitle="Creating a business organization" format="dita" type="task"/>
+		<topicref href="source/t_creating-a-board.xml" navtitle="Creating a board" format="dita" type="task"/>
+		<topicref href="source/t_inviting-participants.xml" navtitle="Inviting participants" format="dita" type="task"/>
+	</topicref>
+	
+	<!-- ######## RELTABLE ######## -->
+	<reltable>
+		<relrow>
+			<relcell><topicref href="source/t_ov_planning-your-projects-with-trello.xml" navtitle="Planning your projects with Trello" format="dita" type="task"/></relcell>
+			<relcell><topicref href="https://trello.com/inspiringboards" format="html" scope="external" navtitle="More inspiring boards"/></relcell>
+		</relrow>
+		<relrow>
+			<relcell><topicref href="source/t_keeping-to-do-lists.xml" navtitle="Keeping to-do lists" format="dita" type="task" linking="sourceonly"/></relcell>
+			<relcell>
+				<topicref href="source/t_creating-an-user-account.xml" navtitle="Creating an user account" format="dita" type="task"/>
+				<topicref href="source/t_creating-a-board.xml" navtitle="Creating a board" format="dita" type="task"/>
+			</relcell>
+		</relrow>
+		<relrow>
+			<relcell><topicref href="source/t_brainstorming.xml" navtitle="Brainstorming" format="dita" type="task"/></relcell>
+			<relcell><topicref href="source/t_creating-a-personal-organization.xml" navtitle="Creating a personal organization" format="dita" type="task"/></relcell>
+		</relrow>
+		<relrow>
+			<relcell><topicref href="source/t_agile-boards.xml" navtitle="Agile boards" format="dita" type="task"/></relcell>
+			<relcell><topicref href="source/t_creating-a-business-organization.xml" navtitle="Creating a business organization" format="dita" type="task"/></relcell>
+		</relrow>
+	</reltable>
+</map>

@@ -1,15 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
 <task xml:lang="en-US" id="t_agile-boards">
-    <title>Agile boards</title>
-    <taskbody>
-        <context>
-            <p></p>
-        </context>
-        <steps>
-            <step>
-                <cmd></cmd>
-            </step>
-        </steps>
-    </taskbody>
+	<title>Agile boards</title>
+	<shortdesc>When working with agile teams, create an <wintitle>Agile Board</wintitle> to suit your workflow.</shortdesc>
+	<taskbody>
+		<context>
+			<fig>
+				<image href="_img/crop_sample-agile-board.png" placement="break" width="600px" alt="Agile Board"/>
+				<p>(source: <xref href="https://trello.com/b/DnZvFigA/agile-board" format="html" scope="external"/>)</p>
+			</fig>
+			<p>For example, create lists for <option>Backlog</option>, <option>Current Sprint</option>, <option>In Progress</option>, <option>On Hold</option>,
+					<option>Done</option>, etc.</p>
+		</context>
+	</taskbody>
 </task>

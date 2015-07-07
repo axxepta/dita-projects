@@ -1,15 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
 <task xml:lang="en-US" id="t_creating-an-user-account">
-    <title>Creating an user account</title>
-    <taskbody>
-        <context>
-            <p></p>
-        </context>
-        <steps>
-            <step>
-                <cmd></cmd>
-            </step>
-        </steps>
-    </taskbody>
+	<title>Creating a user account</title>
+	<taskbody>
+		<steps>
+			<step>
+				<cmd>To create a user account in Trello:</cmd>
+				<choices>
+					<choice>If you have an email invitation, click the hyperlink (<uicontrol>View Organization</uicontrol>) in the email message, then when the
+						organization page opens in your browser, click <uicontrol>Join Organization</uicontrol>.</choice>
+					<choice>Go to <xref
+						href="https://trello.com/" format="html" scope="external"/> and click <uicontrol>Sign
+							Up</uicontrol>.</choice>
+				</choices>
+			</step>
+			<step>
+				<cmd>Fill in the <uicontrol>Name</uicontrol>, <uicontrol>Email</uicontrol> and <uicontrol>Password</uicontrol>, and click <uicontrol>Create New
+					Account</uicontrol>.</cmd>
+				<stepresult>You'll see the <wintitle>Welcome Board</wintitle> and a message asking you to confirm your email address.</stepresult>
+			</step>
+			<step>
+				<cmd>Open your email account and click the confirmation link <uicontrol>Verify Address</uicontrol> in the email message.</cmd>
+			</step>
+			<step>
+				<cmd>Log in to Trello again if necessary, and click the <wintitle>Welcome Board</wintitle>.</cmd>
+				<info>Boards are organized in lists and each list contains cards. Read the cards in the <uicontrol>Basics</uicontrol>,
+						<uicontrol>Intermediate</uicontrol> and <uicontrol>Advanced</uicontrol> lists, which form a quick
+					guide.</info>
+			</step>
+			<step>
+				<cmd>To set up your account details and notifications, click your user name in the top menu bar and click <uicontrol>Settings</uicontrol>.</cmd>
+				<info><image href="_img/crop_settings.png" placement="break"/></info>
+			</step>
+		</steps>
+	</taskbody>
 </task>

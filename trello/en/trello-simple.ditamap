@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd"> 
+<map xml:lang="en-US">
+	<title>Collaborating online in Trello</title>
+	<!-- sample DITA project -->
+	<!-- simple ditamap and topics, without reuse, keys, filters, reltable -->
+	<topicmeta>
+		<author>@thinkDITA</author>
+		<publisher>PANTOPIX GmbH &amp; Co. KG</publisher>
+		<copyright>
+			<copyryear year="${date(YYYY)}"/>
+			<copyrholder>PANTOPIX GmbH &amp; Co. KG</copyrholder>
+		</copyright>
+	</topicmeta>
+	<topicref href="source/t_ov_planning-your-projects-with-trello.xml" navtitle="Planning your projects with Trello" format="dita" type="task">
+		<topicref href="source/t_keeping-to-do-lists.xml" navtitle="Keeping to-do lists" format="dita" type="task"/>
+		<topicref href="source/t_agile-boards.xml" navtitle="Agile boards" format="dita" type="task"/>
+		<topicref href="source/t_brainstorming.xml" navtitle="Brainstorming" format="dita" type="task"/>
+		<topicref href="source/t_voting.xml" navtitle="Voting" format="dita" type="task"/>
+		<topicref href="source/t_writing-drafts.xml" navtitle="Writing drafts" format="dita" type="task"/>
+	</topicref>
+</map>

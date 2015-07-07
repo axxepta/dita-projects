@@ -1,21 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project version="16.1">
+<project version="17.0">
     <meta>
         <filters directoryPatterns="" filePatterns="" positiveFilePatterns="" showHiddenFiles="false"/>
         <options>
-            <serialized version="16.1" xml:space="preserve">
+            <serialized version="17.0" xml:space="preserve">
                 <serializableOrderedMap>
+                    <entry>
+                        <String>keys.context</String>
+                        <String>${pdu}/en/trello.ditamap</String>
+                    </entry>
                     <entry>
                         <String>scenario.associations</String>
                         <scenarioAssociation-array>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>en/trello-submaps.ditamap</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>DITA Map PDF</String>
+                                        <String>DITA Map WebHelp</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>DITAMAP</String>
+                                        <String>DITAMAP</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
                             <scenarioAssociation>
                                 <field name="url">
                                     <String>en/trello.ditamap</String>
                                 </field>
                                 <field name="scenarioIds">
                                     <list>
-                                        <String>DITA Map PDF - stub</String>
-                                        <String>DITA Map WebHelp - stub</String>
+                                        <String>DITA Map PDF</String>
+                                        <String>DITA Map WebHelp</String>
                                     </list>
                                 </field>
                                 <field name="scenarioTypes">
@@ -27,12 +48,12 @@
                             </scenarioAssociation>
                             <scenarioAssociation>
                                 <field name="url">
-                                    <String>de/test-projekt.ditamap</String>
+                                    <String>en/trello-simple-reltable.ditamap</String>
                                 </field>
                                 <field name="scenarioIds">
                                     <list>
-                                        <String>DITA Map WebHelp - stub</String>
-                                        <String>DITA Map PDF - stub</String>
+                                        <String>DITA Map PDF</String>
+                                        <String>DITA Map WebHelp</String>
                                     </list>
                                 </field>
                                 <field name="scenarioTypes">
@@ -44,12 +65,12 @@
                             </scenarioAssociation>
                             <scenarioAssociation>
                                 <field name="url">
-                                    <String>en/test-project.ditamap</String>
+                                    <String>en/trello-simple.ditamap</String>
                                 </field>
                                 <field name="scenarioIds">
                                     <list>
-                                        <String>DITA Map WebHelp - stub</String>
-                                        <String>DITA Map PDF - stub</String>
+                                        <String>DITA Map PDF</String>
+                                        <String>DITA Map WebHelp</String>
                                     </list>
                                 </field>
                                 <field name="scenarioTypes">
@@ -138,15 +159,12 @@
                                             <field name="type">
                                                 <Integer>4</Integer>
                                             </field>
-                                            <field name="isPredefined">
-                                                <Boolean>true</Boolean>
-                                            </field>
                                             <field name="possibleValues">
                                                 <String-array>
-                                                    <null/>
                                                     <String>none</String>
                                                     <String>all</String>
                                                     <String>nofamily</String>
+                                                    <null/>
                                                 </String-array>
                                             </field>
                                         </ditaParameter>
@@ -166,14 +184,11 @@
                                             <field name="type">
                                                 <Integer>4</Integer>
                                             </field>
-                                            <field name="isPredefined">
-                                                <Boolean>true</Boolean>
-                                            </field>
                                             <field name="possibleValues">
                                                 <String-array>
-                                                    <null/>
                                                     <String>yes</String>
                                                     <String>no</String>
+                                                    <null/>
                                                 </String-array>
                                             </field>
                                         </ditaParameter>
@@ -188,45 +203,15 @@
                                                 <String>.xml</String>
                                             </field>
                                             <field name="defaultValue">
-                                                <null/>
+                                                <String>.xml</String>
                                             </field>
                                             <field name="type">
                                                 <Integer>0</Integer>
                                             </field>
-                                            <field name="isPredefined">
-                                                <Boolean>true</Boolean>
-                                            </field>
                                             <field name="possibleValues">
                                                 <String-array>
-                                                    <null/>
                                                     <String>.xml</String>
                                                     <String>.dita</String>
-                                                </String-array>
-                                            </field>
-                                        </ditaParameter>
-                                        <ditaParameter>
-                                            <field name="name">
-                                                <String>xep.failOnError</String>
-                                            </field>
-                                            <field name="description">
-                                                <null/>
-                                            </field>
-                                            <field name="value">
-                                                <String>true</String>
-                                            </field>
-                                            <field name="defaultValue">
-                                                <null/>
-                                            </field>
-                                            <field name="type">
-                                                <Integer>4</Integer>
-                                            </field>
-                                            <field name="isPredefined">
-                                                <Boolean>true</Boolean>
-                                            </field>
-                                            <field name="possibleValues">
-                                                <String-array>
-                                                    <null/>
-                                                    <String>true</String>
                                                 </String-array>
                                             </field>
                                         </ditaParameter>
@@ -257,7 +242,7 @@
                                     <null/>
                                 </field>
                                 <field name="name">
-                                    <String>DITA Map PDF - stub</String>
+                                    <String>DITA Map PDF</String>
                                 </field>
                                 <field name="baseURL">
                                     <null/>
@@ -349,10 +334,10 @@
                                     <String>${cfd}</String>
                                 </field>
                                 <field name="outputDir">
-                                    <String>${pd}/out/webhelp-stub</String>
+                                    <String>${pd}/out/webhelp-${cfn}</String>
                                 </field>
                                 <field name="tempDir">
-                                    <String>${pd}/temp/webhelp-stub</String>
+                                    <String>${pd}/temp/webhelp-${cfn}</String>
                                 </field>
                                 <field name="transtype">
                                     <String>webhelp</String>
@@ -383,7 +368,7 @@
                                     <String>C:\Program Files\Oxygen XML Editor 16\frameworks\dita\DITA-OT\plugins\com.oxygenxml.webhelp\predefined-skins\dita\oxygen\skin.css</String>
                                 </field>
                                 <field name="lastCustomSkinCssPath">
-                                    <null/>
+                                    <String>C:\Program Files\Oxygen XML Editor 16\frameworks\dita\DITA-OT\plugins\com.oxygenxml.webhelp\predefined-skins\dita\oxygen\skin.css</String>
                                 </field>
                                 <field name="additionalAntArgs">
                                     <String></String>
@@ -396,6 +381,78 @@
                                 </field>
                                 <field name="ditaParams">
                                     <list>
+                                        <ditaParameter>
+                                            <field name="name">
+                                                <String>clean.output</String>
+                                            </field>
+                                            <field name="description">
+                                                <null/>
+                                            </field>
+                                            <field name="value">
+                                                <String>yes</String>
+                                            </field>
+                                            <field name="defaultValue">
+                                                <String>no</String>
+                                            </field>
+                                            <field name="type">
+                                                <Integer>4</Integer>
+                                            </field>
+                                            <field name="possibleValues">
+                                                <String-array>
+                                                    <String>yes</String>
+                                                    <String>no</String>
+                                                    <null/>
+                                                </String-array>
+                                            </field>
+                                        </ditaParameter>
+                                        <ditaParameter>
+                                            <field name="name">
+                                                <String>args.rellinks</String>
+                                            </field>
+                                            <field name="description">
+                                                <null/>
+                                            </field>
+                                            <field name="value">
+                                                <String>all</String>
+                                            </field>
+                                            <field name="defaultValue">
+                                                <String>all</String>
+                                            </field>
+                                            <field name="type">
+                                                <Integer>4</Integer>
+                                            </field>
+                                            <field name="possibleValues">
+                                                <String-array>
+                                                    <String>none</String>
+                                                    <String>all</String>
+                                                    <String>nofamily</String>
+                                                    <null/>
+                                                </String-array>
+                                            </field>
+                                        </ditaParameter>
+                                        <ditaParameter>
+                                            <field name="name">
+                                                <String>dita.ext</String>
+                                            </field>
+                                            <field name="description">
+                                                <null/>
+                                            </field>
+                                            <field name="value">
+                                                <String>.xml</String>
+                                            </field>
+                                            <field name="defaultValue">
+                                                <String>.xml</String>
+                                            </field>
+                                            <field name="type">
+                                                <Integer>0</Integer>
+                                            </field>
+                                            <field name="possibleValues">
+                                                <String-array>
+                                                    <String>.xml</String>
+                                                    <String>.dita</String>
+                                                </String-array>
+                                            </field>
+                                        </ditaParameter>
                                         <ditaParameter>
                                             <field name="name">
                                                 <String>args.breadcrumbs</String>
@@ -412,42 +469,11 @@
                                             <field name="type">
                                                 <Integer>4</Integer>
                                             </field>
-                                            <field name="isPredefined">
-                                                <Boolean>true</Boolean>
-                                            </field>
                                             <field name="possibleValues">
                                                 <String-array>
-                                                    <null/>
                                                     <String>yes</String>
                                                     <String>no</String>
-                                                </String-array>
-                                            </field>
-                                        </ditaParameter>
-                                        <ditaParameter>
-                                            <field name="name">
-                                                <String>args.rellinks</String>
-                                            </field>
-                                            <field name="description">
-                                                <null/>
-                                            </field>
-                                            <field name="value">
-                                                <String>all</String>
-                                            </field>
-                                            <field name="defaultValue">
-                                                <String>none</String>
-                                            </field>
-                                            <field name="type">
-                                                <Integer>4</Integer>
-                                            </field>
-                                            <field name="isPredefined">
-                                                <Boolean>true</Boolean>
-                                            </field>
-                                            <field name="possibleValues">
-                                                <String-array>
                                                     <null/>
-                                                    <String>none</String>
-                                                    <String>all</String>
-                                                    <String>nofamily</String>
                                                 </String-array>
                                             </field>
                                         </ditaParameter>
@@ -467,68 +493,11 @@
                                             <field name="type">
                                                 <Integer>4</Integer>
                                             </field>
-                                            <field name="isPredefined">
-                                                <Boolean>true</Boolean>
-                                            </field>
                                             <field name="possibleValues">
                                                 <String-array>
-                                                    <null/>
                                                     <String>yes</String>
                                                     <String>no</String>
-                                                </String-array>
-                                            </field>
-                                        </ditaParameter>
-                                        <ditaParameter>
-                                            <field name="name">
-                                                <String>clean.output</String>
-                                            </field>
-                                            <field name="description">
-                                                <null/>
-                                            </field>
-                                            <field name="value">
-                                                <String>yes</String>
-                                            </field>
-                                            <field name="defaultValue">
-                                                <String>no</String>
-                                            </field>
-                                            <field name="type">
-                                                <Integer>4</Integer>
-                                            </field>
-                                            <field name="isPredefined">
-                                                <Boolean>true</Boolean>
-                                            </field>
-                                            <field name="possibleValues">
-                                                <String-array>
                                                     <null/>
-                                                    <String>yes</String>
-                                                    <String>no</String>
-                                                </String-array>
-                                            </field>
-                                        </ditaParameter>
-                                        <ditaParameter>
-                                            <field name="name">
-                                                <String>dita.ext</String>
-                                            </field>
-                                            <field name="description">
-                                                <null/>
-                                            </field>
-                                            <field name="value">
-                                                <String>.xml</String>
-                                            </field>
-                                            <field name="defaultValue">
-                                                <null/>
-                                            </field>
-                                            <field name="type">
-                                                <Integer>0</Integer>
-                                            </field>
-                                            <field name="isPredefined">
-                                                <Boolean>true</Boolean>
-                                            </field>
-                                            <field name="possibleValues">
-                                                <String-array>
-                                                    <null/>
-                                                    <String>.xml</String>
-                                                    <String>.dita</String>
                                                 </String-array>
                                             </field>
                                         </ditaParameter>
@@ -540,16 +509,13 @@
                                                 <null/>
                                             </field>
                                             <field name="value">
-                                                <String>(c) 2015 thinkDITA</String>
+                                                <String>(c) ${date(YYYY)} PANTOPIX</String>
                                             </field>
                                             <field name="defaultValue">
-                                                <String></String>
+                                                <null/>
                                             </field>
                                             <field name="type">
                                                 <Integer>0</Integer>
-                                            </field>
-                                            <field name="isPredefined">
-                                                <Boolean>true</Boolean>
                                             </field>
                                             <field name="possibleValues">
                                                 <null/>
@@ -582,7 +548,7 @@
                                     <null/>
                                 </field>
                                 <field name="name">
-                                    <String>DITA Map WebHelp - stub</String>
+                                    <String>DITA Map WebHelp</String>
                                 </field>
                                 <field name="baseURL">
                                     <null/>

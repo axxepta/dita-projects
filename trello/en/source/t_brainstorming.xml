@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
 <task xml:lang="en-US" id="t_brainstorming">
-    <title>Brainstorming</title>
-    <taskbody>
-        <context>
-            <p></p>
-        </context>
-        <steps>
-            <step>
-                <cmd></cmd>
-            </step>
-        </steps>
-    </taskbody>
+	<title>Brainstorming</title>
+	<shortdesc>Trello can be used as an interactive brainstorming board, for storing ideas, grouping and prioritizing them.</shortdesc>
+	<taskbody>
+		<context>
+			<fig>
+				<image href="_img/crop_sample-brainstorming.png" placement="break" width="600px" alt="Brainstorming Board"/>
+				<p>(source: <xref href="http://www.quora.com" format="html" scope="external"/>)</p>
+			</fig>
+			<p>Start by creating cards or lists for each idea, then do card-sorting to create more relevant lists, voting, labeling, etc.</p>
+		</context>
+	</taskbody>
 </task>

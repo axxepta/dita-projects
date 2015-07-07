@@ -1,15 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
 <task xml:lang="en-US" id="t_keeping-to-do-lists">
-    <title>Keeping to-do lists</title>
-    <taskbody>
-        <context>
-            <p></p>
-        </context>
-        <steps>
-            <step>
-                <cmd></cmd>
-            </step>
-        </steps>
-    </taskbody>
+	<title>Keeping to-do lists</title>
+	<shortdesc>Keep track of your chores and errands, of reading lists, of travel arrangements, etc. on <wintitle>To Do</wintitle> boards.</shortdesc>
+	<taskbody>
+		<context>
+			<fig><image href="_img/crop_sample-todo-list.png" placement="break" width="600px" alt="To Do List"/>
+				<p>(source: <xref href="https://trello.com/b/keLKBhex/personal-to-do-list" format="html" scope="external"/>)</p>
+			</fig>
+			<ul>
+				<li><p>Set the list to <option>Private</option>, if you want to work on it alone and hide it even from your groups.</p></li>
+				<li><p>Add board members (family, friends, students or colleagues), assign them tasks and collaborate on an <option>Organization</option> list.</p></li>
+				<li><p>Let the community participate, by keeping a <option>Public</option> list.</p></li>
+			</ul>
+		</context>
+	</taskbody>
 </task>

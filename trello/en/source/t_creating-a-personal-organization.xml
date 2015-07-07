@@ -1,15 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
 <task xml:lang="en-US" id="t_creating-a-personal-organization">
-    <title>Creating a personal organization</title>
-    <taskbody>
-        <context>
-            <p></p>
-        </context>
-        <steps>
-            <step>
-                <cmd></cmd>
-            </step>
-        </steps>
-    </taskbody>
+	<title>Creating a personal organization</title>
+	<taskbody>
+		<steps>
+			<step>
+				<cmd>To start collaborating with family, friends, club, project team, etc. click the plus sign next to the user name
+					on the top menu bar and select <uicontrol>Create Personal Organization</uicontrol>.</cmd>
+				<info>
+					<image href="_img/crop_create-pers-org.png" placement="break"/>
+					<p>If the group already has created an organization, they can invite you to join. Tell them your Trello
+						username.</p>
+				</info>
+			</step>
+			<step>
+				<cmd>Fill in the <uicontrol>Name</uicontrol> of your new organization and a <uicontrol>Description</uicontrol>, then
+					click <uicontrol>Create</uicontrol>.</cmd>
+				<stepresult>
+					<p>The organization page opens.</p>
+					<image href="_img/crop_pers-org-page.png" placement="break" width="500px"/>
+					<p>Under <uicontrol>My Org Boards</uicontrol>, you'll see the boards you create for this organization, while under <uicontrol>Other Org-Visible
+							Boards</uicontrol> you'll see boards created by the other organization members.</p>
+				</stepresult>
+			</step>
+			<step>
+				<cmd>To change the logo and description of the organization, click <uicontrol>Edit profile</uicontrol>.</cmd>
+			</step>
+			<step>
+				<cmd>To change the <uicontrol>Visibility</uicontrol> of the organization, click <uicontrol>Settings</uicontrol>.</cmd>
+				<choices>
+					<choice><uicontrol>Private</uicontrol> means the boards are not indexed, nor visible to anyone outside the organization.</choice>
+					<choice><uicontrol>Public</uicontrol> means the boards are visible to anyone with a link to them and they are indexed by search engines. However,
+					only the organization members can create and edit the boards.</choice>
+				</choices>
+				<info>Further settings (restrictions and security) are enabled if you upgrade to business class.</info>
+			</step>
+		</steps>
+	</taskbody>
 </task>

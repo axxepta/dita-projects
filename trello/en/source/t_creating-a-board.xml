@@ -1,15 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
 <task xml:lang="en-US" id="t_creating-a-board">
-    <title>Creating a board</title>
-    <taskbody>
-        <context>
-            <p></p>
-        </context>
-        <steps>
-            <step>
-                <cmd></cmd>
-            </step>
-        </steps>
-    </taskbody>
+	<title>Creating a board</title>
+	<taskbody>
+		<steps>
+			<step>
+				<cmd>To create a new board, click <uicontrol>Boards</uicontrol> on the top menu bar, then click <uicontrol>Create new board</uicontrol>.</cmd>
+				<info><image href="_img/crop_create-board.png"/>
+				<p>You can also start new boards directly from the organization page.</p></info>
+			</step>
+			<step>
+				<cmd>In the <wintitle>Create Board</wintitle> dialog:</cmd>
+				<choices>
+					<choice>Type a <uicontrol>Title</uicontrol> for the board.</choice>
+					<choice>If you want to share the board with the members of an organization, select it from <uicontrol>Organization</uicontrol>.</choice>
+					<choice>To set the visibility of the board, click <uicontrol>Change</uicontrol>.
+						<ul>
+							<li><uicontrol>Private</uicontrol> means only you and members you add to the board have access to it.</li>
+							<li><uicontrol>Organization</uicontrol> (if you enabled it) means only members of the organization can access the board (<msgph>Org
+								Visible</msgph>).</li>
+							<li><uicontrol>Public</uicontrol> means the board is visible to anyone with a link to it and indexed by search engines.</li>
+						</ul></choice>
+				</choices>
+			</step>
+			<step>
+				<cmd>Click <uicontrol>Create</uicontrol>.</cmd>
+				<stepresult>Your new board is displayed and you can start adding lists and cards to it, and eventually adding members.</stepresult>
+			</step>
+		</steps>
+	</taskbody>
 </task>

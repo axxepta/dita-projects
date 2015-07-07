@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
 <task xml:lang="en-US" id="t_writing-drafts">
-    <title>Writing drafts</title>
-    <taskbody>
-        <context>
-            <p></p>
-        </context>
-        <steps>
-            <step>
-                <cmd></cmd>
-            </step>
-        </steps>
-    </taskbody>
+	<title>Writing drafts</title>
+	<shortdesc>When researching and writing content, create a planning board.</shortdesc>
+	<taskbody>
+		<context>
+			<fig>
+				<image href="_img/crop_sample-drafts.png" placement="break" width="600px" alt="Drafts Board"/>
+				<p>(source: <xref href="https://trello.com/b/mo04wOm4/editorial-calendar" format="html" scope="external"/>)</p>
+			</fig>
+			<p>Trello is very useful for lesson plans, workshop plans, editorial calendars, journals, project research, etc.</p>
+		</context>
+	</taskbody>
 </task>

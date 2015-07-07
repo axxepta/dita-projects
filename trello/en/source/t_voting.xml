@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
 <task xml:lang="en-US" id="t_voting">
-    <title>Voting</title>
-    <taskbody>
-        <context>
-            <p></p>
-        </context>
-        <steps>
-            <step>
-                <cmd></cmd>
-            </step>
-        </steps>
-    </taskbody>
+	<title>Voting</title>
+	<shortdesc>Allow members to vote on cards and prioritize tasks and ideas.</shortdesc>
+	<taskbody>
+		<context>
+			<fig>
+				<image href="_img/crop_sample-voting.png" placement="break" width="600px" alt="Voting Board"/>
+				<p>(source: <xref href="https://trello.com/b/4WrmVAmH/votingboard" format="html" scope="external"/>)</p>
+			</fig>
+			<p>Use voting to process brainstorming results, to organize events, to sort lists, to make decisions, etc.</p>
+		</context>
+	</taskbody>
 </task>

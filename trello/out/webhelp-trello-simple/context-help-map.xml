@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map>
+   <appContext helpID="t_planning-your-projects-with-trello"
+               path="source/t_ov_planning-your-projects-with-trello.html"/>
+   <appContext helpID="t_keeping-to-do-lists" path="source/t_keeping-to-do-lists.html"/>
+   <appContext helpID="t_agile-boards" path="source/t_agile-boards.html"/>
+   <appContext helpID="t_brainstorming" path="source/t_brainstorming.html"/>
+   <appContext helpID="t_voting" path="source/t_voting.html"/>
+   <appContext helpID="t_writing-drafts" path="source/t_writing-drafts.html"/>
+</map>
