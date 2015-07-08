@@ -1,15 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
 <task xml:lang="en-US" id="t_creating-lists-on-the-board">
-    <title>Creating lists on the board</title>
-    <taskbody>
-        <context>
-            <p></p>
-        </context>
-        <steps>
-            <step>
-                <cmd></cmd>
-            </step>
-        </steps>
-    </taskbody>
+	<title>Creating lists on the board</title>
+	<taskbody>
+		<context>
+			<p>Each board is organized in vertical lists. For example, a <uicontrol>Tasks</uicontrol> board could contain three lists: <uicontrol>To Do</uicontrol>, <uicontrol>Doing</uicontrol>, <uicontrol>Done</uicontrol>.</p>
+		</context>
+		<steps>
+			<step>
+				<cmd>On a board, click <uicontrol>Add a list</uicontrol>, type the name of the list in the text field and click <uicontrol>Save</uicontrol>.</cmd>
+				<info><p>You can rearrange the lists by drag &amp; drop.</p>
+				<p>By clicking the arrow in the list title, you can make further changes to a list: copy, move or archive the list or its cards. </p></info>
+			</step>
+		</steps>
+		
+	</taskbody>
 </task>

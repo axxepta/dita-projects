@@ -1,15 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
 <task xml:lang="en-US" id="t_creating-cards-on-the-board">
-    <title>Creating cards on the board</title>
-    <taskbody>
-        <context>
-            <p></p>
-        </context>
-        <steps>
-            <step>
-                <cmd></cmd>
-            </step>
-        </steps>
-    </taskbody>
+	<title>Creating cards on the board</title>
+	<taskbody>
+		<context>
+			<p>The lists on a board contain cards, on which you write the content, like for example ideas, tasks, etc.</p>
+		</context>
+		<steps>
+			<step>
+				<cmd>On the bottom of the list, click <uicontrol>Add a card</uicontrol>, type the card title in the text field and press <uicontrol>Add</uicontrol>.</cmd>
+				<info>You can rearrange the cards by drag &amp; drop, even between lists.</info>
+			</step>
+			<step>
+				<cmd>By clicking a card, you can edit its content.</cmd>
+				<info><image href="../_img/win_card.png" placement="break" width="700px"/></info>
+			</step>
+		</steps>
+	</taskbody>
 </task>

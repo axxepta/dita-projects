@@ -1,15 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
 <task xml:lang="en-US" id="t_prioritizing-by-voting-on-cards">
-    <title>Prioritizing by voting on cards</title>
-    <taskbody>
-        <context>
-            <p></p>
-        </context>
-        <steps>
-            <step>
-                <cmd></cmd>
-            </step>
-        </steps>
-    </taskbody>
+	<title>Prioritizing by voting on cards</title>
+	<taskbody>
+		<prereq>The <uicontrol>Voting</uicontrol> feature has to be enabled for the board: <menucascade>
+			<uicontrol>Show Menu</uicontrol>
+			<uicontrol>Power-Ups</uicontrol>
+			<uicontrol>Voting</uicontrol>
+		</menucascade>.</prereq>
+		<context>Each member can cast only one vote per card.</context>
+		<steps>
+			<step>
+				<cmd>To add your vote to a card, open the card and click <uicontrol>Vote</uicontrol>.</cmd>
+				<stepresult>The number of votes on the card is incremented.</stepresult>
+			</step>
+		</steps>
+	</taskbody>
 </task>

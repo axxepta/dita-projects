@@ -1,15 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
 <task xml:lang="en-US" id="t_assigning-members-to-cards">
-    <title>Assigning members to cards</title>
-    <taskbody>
-        <context>
-            <p></p>
-        </context>
-        <steps>
-            <step>
-                <cmd></cmd>
-            </step>
-        </steps>
-    </taskbody>
+	<title>Assigning members to cards</title>
+	<taskbody>
+		<prereq>The members have to be assigned to the board first from <menucascade>
+			<uicontrol>Show Menu</uicontrol><uicontrol>Add Members</uicontrol>
+		</menucascade>.</prereq>
+		<steps>
+			<step>
+				<cmd>Open the card.</cmd>
+			</step>
+			<step>
+				<cmd>Click <uicontrol>Members</uicontrol> and click the user name(s) you want to assign to the card.</cmd>
+				<info><image href="../_img/crop_card-members.png" placement="break" width="600px"/></info>
+				<stepresult>The member avatars are added to the card in the list.</stepresult>
+			</step>
+		</steps>
+	</taskbody>
 </task>

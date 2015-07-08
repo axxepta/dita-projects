@@ -1,15 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
 <task xml:lang="en-US" id="t_setting-labels">
-    <title>Setting labels</title>
-    <taskbody>
-        <context>
-            <p></p>
-        </context>
-        <steps>
-            <step>
-                <cmd></cmd>
-            </step>
-        </steps>
-    </taskbody>
+	<title>Setting labels</title>
+	<taskbody>
+		<context>
+			<p>A set of ten colored labels is available for each board and you can give them relevant names.</p>
+		</context>
+		<steps>
+			<step>
+				<cmd>Open the card.</cmd>
+			</step>
+			<step>
+				<cmd>Click <uicontrol>Labels</uicontrol> and click one or more labels that you want to add to the card.</cmd>
+				<info><image href="../_img/crop_card-labels.png" placement="break" width="300px"/></info>
+				<stepresult>Thin colored lines are added to the card in the list.</stepresult>
+			</step>
+		</steps>
+	</taskbody>
 </task>

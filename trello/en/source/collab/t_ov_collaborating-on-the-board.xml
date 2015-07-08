@@ -1,15 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
 <task xml:lang="en-US" id="t_collaborating-on-the-board">
-    <title>Collaborating on the board</title>
-    <taskbody>
-        <context>
-            <p></p>
-        </context>
-        <steps>
-            <step>
-                <cmd></cmd>
-            </step>
-        </steps>
-    </taskbody>
+	<title>Collaborating on the board</title>
+	<taskbody>
+		<context>
+			<p>Trello displays clues for collaboration directly on cards on the board.</p>
+			<fig><image href="../_img/crop_card-on-board.png" placement="break" width="400px"/>
+			<ol>
+				<li>Cards are tagged with labels</li>
+				<li>Members are assigned to cards</li>
+				<li>Due dates can be set</li>
+				<li>Members can vote on cards</li>
+			</ol>
+			</fig>
+			<p>These features are further integrated with notifications and calendar entries.</p>
+		</context>
+	</taskbody>
 </task>

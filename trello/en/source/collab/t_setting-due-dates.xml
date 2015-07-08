@@ -1,15 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
 <task xml:lang="en-US" id="t_setting-due-dates">
-    <title>Setting due dates</title>
-    <taskbody>
-        <context>
-            <p></p>
-        </context>
-        <steps>
-            <step>
-                <cmd></cmd>
-            </step>
-        </steps>
-    </taskbody>
+	<title>Setting due dates</title>
+	<taskbody>
+		<prereq>The <uicontrol>Calendar</uicontrol> feature has to be enabled for the board: <menucascade>
+				<uicontrol>Show Menu</uicontrol>
+				<uicontrol>Power-Ups</uicontrol>
+				<uicontrol>Calendar</uicontrol>
+			</menucascade>.</prereq>
+		<steps>
+			<step>
+				<cmd>Open the card.</cmd>
+			</step>
+			<step>
+				<cmd>Click <uicontrol>Due Date</uicontrol> and select the date and the hour for the deadline.</cmd>
+				<info><image href="../_img/crop_card-duedate.png" placement="break" width="300px"/></info>
+				<stepresult>The card is added as event in the <uicontrol>Calendar</uicontrol> on the top menu bar of the
+					board.</stepresult>
+			</step>
+		</steps>
+	</taskbody>
 </task>
