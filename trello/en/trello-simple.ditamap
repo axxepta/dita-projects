@@ -12,7 +12,7 @@
 			<copyrholder>PANTOPIX GmbH &amp; Co. KG</copyrholder>
 		</copyright>
 	</topicmeta>
-	<topicref href="source/t_ov_planning-your-projects-with-trello.xml" navtitle="Planning your projects with Trello" format="dita" type="task">
+	<topicref href="source/c_ov_trello.xml" navtitle="Planning your projects with Trello" format="dita" type="concept">
 		<topicref href="source/t_keeping-to-do-lists.xml" navtitle="Keeping to-do lists" format="dita" type="task"/>
 		<topicref href="source/t_agile-boards.xml" navtitle="Agile boards" format="dita" type="task"/>
 		<topicref href="source/t_brainstorming.xml" navtitle="Brainstorming" format="dita" type="task"/>

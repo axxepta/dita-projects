@@ -15,7 +15,7 @@
 
 	<!-- ######## CONTENTS ######## -->
 	<!-- first two chapters do not use submaps, for test purposes -->
-	<topicref href="source/t_ov_planning-your-projects-with-trello.xml" navtitle="Planning your projects with Trello" format="dita" type="task">
+	<topicref href="source/c_ov_trello.xml" navtitle="Planning your projects with Trello" format="dita" type="concept">
 		<topicref href="source/t_keeping-to-do-lists.xml" navtitle="Keeping to-do lists" format="dita" type="task"/>
 		<topicref href="source/t_agile-boards.xml" navtitle="Agile boards" format="dita" type="task"/>
 		<topicref href="source/t_brainstorming.xml" navtitle="Brainstorming" format="dita" type="task"/>
@@ -50,7 +50,8 @@
 		</relrow>
 		<relrow>
 			<relcell>
-				<topicref href="source/t_keeping-to-do-lists.xml" navtitle="Keeping to-do lists" format="dita" type="task" linking="sourceonly"/>
+				<topicref href="source/t_keeping-to-do-lists.xml" navtitle="Keeping to-do lists" format="dita" type="task"
+					linking="sourceonly"/>
 			</relcell>
 			<relcell>
 				<topicref href="source/t_creating-an-user-account.xml" navtitle="Creating an user account" format="dita" type="task"/>
