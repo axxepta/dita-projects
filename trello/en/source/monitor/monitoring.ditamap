@@ -5,6 +5,9 @@
 	<topicref href="t_ov_monitoring-trello-boards.xml" navtitle="Monitoring Trello boards" format="dita" type="task">
 		<topicref href="t_checking-activity-history.xml" navtitle="Checking activity history" format="dita" type="task"/>
 		<topicref href="t_subscribing.xml" navtitle="Subscribing" format="dita" type="task"/>
+		<!-- contains conref to warehouse: -->
 		<topicref href="t_creating-a-calendar.xml" navtitle="Creating a calendar" format="dita" type="task"/>
+		<!-- contains conref to warehouse: -->
+		<topicref href="t_export-ical.xml" navtitle="Exporting iCal" format="dita" type="task"/>
 	</topicref>
 </map>

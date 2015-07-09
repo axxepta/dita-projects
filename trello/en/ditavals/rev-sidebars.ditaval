@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<val>
+	<revprop action="flag" changebar="|" val="20150708">
+		<startflag imageref="../source/_img/ico_edit.png">
+			<alt-text>Revision 20150708: </alt-text>
+		</startflag>
+	</revprop>
+	<revprop action="flag" changebar="style:double;width:3pt;placement:left;offset:5pt" val="20150709">
+		<startflag imageref="../source/_img/ico_edit_filled.png">
+			<alt-text>Revision 20150709: </alt-text>
+		</startflag>
+	</revprop>
+</val>

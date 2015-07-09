@@ -33,8 +33,7 @@
 	<reltable>
 		<relrow>
 			<relcell>
-				<topicref href="source/t_ov_planning-your-projects-with-trello.xml" navtitle="Planning your projects with Trello"
-					format="dita" type="task"/>
+				<topicref href="source/c_ov_trello.xml" navtitle="Planning your projects with Trello" format="dita" type="concept"/>
 			</relcell>
 			<relcell>
 				<topicref href="https://trello.com/inspiringboards" format="html" scope="external" navtitle="More inspiring boards"/>

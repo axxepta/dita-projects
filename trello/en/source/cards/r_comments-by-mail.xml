@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference xml:lang="en-US" id="r_comments-by-mail">
+	<title>Commenting by email</title>
+	<refbody>
+		<section>
+			<p>Each card has an email address and a web address, which you can find under <uicontrol keyref="opt_card-more"/>.</p>
+			<p>You can send comments to a card by email, to the card email address.</p>
+			<p>You can share the URL of a card with members of the organization.</p>
+		</section>
+	</refbody>
+</reference>

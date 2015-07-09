@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task  xml:lang="en-US" id="t_checklists">
+	<title>Checklists</title>
+	<taskbody>
+		<steps>
+			<step>
+				<cmd>To add interactive checklists to cards, click <uicontrol keyref="btn_checklist"/>, type a title and click <uicontrol keyref="btn_add"/>.</cmd>
+				<info><image keyref="crop_add-checklist" placement="break" width="300px"/>
+					<p><ph conkeyref="r_warehouse/reuse_p-titles"/> You can reuse checklist items with the option <uicontrol keyref="opt_copy-items"/>.</p></info>
+				<stepresult><p>The checklist is added to the card and you can start adding items.</p>
+				<image keyref="crop_new-checklist" width="400px"/></stepresult>
+			</step>
+			<step>
+				<cmd>Type each item and click <uicontrol keyref="btn_add"/> or Enter.</cmd>
+			</step>
+			<step>
+				<cmd>Working with checklists:</cmd>
+				<choices>
+					<choice>You can change the items order by drag &amp; drop.</choice>
+					<choice>You can add an entire set of items from a text editor, by pasting the list as a single item. <keyword keyref="prod"/> adds the lines as single items to the checklist.</choice>
+					<choice>You can convert items to cards, by clicking the item and selecting <uicontrol keyref="opt_convert2card"/>.</choice>
+					<choice>To monitor the progress, click the checkbox for each item, as they are completed.</choice>
+				</choices>
+				<stepresult><image keyref="crop_checklist-progress" width="400px"></image></stepresult>
+			</step>
+		</steps>
+	</taskbody>
+</task>

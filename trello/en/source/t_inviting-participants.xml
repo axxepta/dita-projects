@@ -4,7 +4,7 @@
 	<title>Inviting participants</title>
 	<taskbody>
 		<context>
-			<p>You can add (invite) members to join an organization or to join a board.</p>
+			<p>You can add (invite) members to join an organization or to join a board, if you have the required permissions.</p>
 		</context>
 		<steps-unordered>
 			<step>
@@ -27,7 +27,8 @@
 					<uicontrol>Show Menu</uicontrol>
 					<uicontrol>Add Members</uicontrol>
 				</menucascade>.</cmd>
-				<info><image href="_img/crop_add-member-board.png"/><p>By clicking their avatar, you can change the permissions (Normal or Admin).</p></info>
+				<info><image href="_img/crop_add-member-board.png"/><p>By clicking their avatar, you can change the permissions (Normal or
+						Admin).</p></info>
 			</step>
 		</steps-unordered>
 		<postreq>The invited members have to join the organization, by clicking the hyperlink in the email message and signing up to Trello.</postreq>

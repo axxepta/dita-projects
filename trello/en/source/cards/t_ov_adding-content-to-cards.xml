@@ -1,15 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
 <task xml:lang="en-US" id="t_adding-content-to-cards">
-    <title>Adding content to cards</title>
-    <taskbody>
-        <context>
-            <p></p>
-        </context>
-        <steps>
-            <step>
-                <cmd></cmd>
-            </step>
-        </steps>
-    </taskbody>
+	<title>Adding content to cards</title>
+	<taskbody>
+		<context>
+			<p><keyword keyref="prod"/> provides numerous content, classification and communication features on the details view of each
+				card.</p>
+			<fig>
+				<image keyref="win_new-card"/>
+			</fig>
+		</context>
+		<steps>
+			<step>
+				<cmd>Click a card to open its details view.</cmd>
+			</step>
+			<step>
+				<cmd>Add or edit content on the card.</cmd>
+				<choices>
+					<choice>If you want to edit the card title, click the title (1).</choice>
+					<choice>Click <uicontrol keyref="opt_edit-descr"/> (2) and type the card description. You can use
+						markdown.</choice>
+					<choice>Assign members to the card, add labels, add a due date, create an interactive checklist, add
+						attachments (3)</choice>
+					<choice>Subscribe to the card, if you are not already monitoring it, or vote for the card (4)</choice>
+					<choice>Write comments and replies to other members (5)</choice>
+					<choice>Share or print the card (6)</choice>
+				</choices>
+			</step>
+			<step>
+				<cmd>If you want to delete a card, click <uicontrol keyref="opt_archive"/>.</cmd>
+				<info>Items are not deleted, only archived in <keyword keyref="prod"/>.</info>
+			</step>
+			<step>
+				<cmd>To close the card, click the close (X) button.</cmd>
+			</step>
+		</steps>
+		<result><fig><title>The card contents are shown with symbols on the board.</title>
+			<image keyref="crop_card-symbols" width="200px" placement="break"/>
+			<sl id="ol_epq_z42_qs">
+					<sli>a. title</sli>
+					<sli>b. description</sli>
+					<sli>c. comments</sli>
+					<sli>d. attachments</sli>
+					<sli>e. checklist items</sli>
+					<sli>f. cover image</sli>
+				</sl></fig></result>
+	</taskbody>
 </task>

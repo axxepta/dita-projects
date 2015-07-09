@@ -1,15 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
 <task xml:lang="en-US" id="t_creating-a-calendar">
-    <title>Creating a calendar</title>
-    <taskbody>
-        <context>
-            <p></p>
-        </context>
-        <steps>
-            <step>
-                <cmd></cmd>
-            </step>
-        </steps>
-    </taskbody>
+	<title>Creating a calendar</title>
+	<taskbody>
+		<prereq><p conref="../_warehouse/r_warehouse.xml#r_warehouse/reuse_p-admin-powerup"/></prereq>
+		<context><note conref="../_warehouse/r_warehouse.xml#r_warehouse/reuse_note-move-cal"/></context>
+		<steps-unordered>
+			<step>
+				<cmd>To activate the calendar feature, go to <menucascade conref="../_warehouse/r_warehouse.xml#r_warehouse/reuse_mcasc-powerups"><uicontrol></uicontrol></menucascade> and click <uicontrol>Enable</uicontrol> next to the <msgph>Calendar</msgph> feature.</cmd>
+				<stepresult>The <uicontrol>Calendar</uicontrol> button appears on the board menu bar and you can see it in weekly or
+					monthly view.</stepresult>
+			</step>
+			<step>
+				<cmd>If there are cards with due dates assigned on the board, you can open and edit the cards directly by clicking on
+					them in the calendar. </cmd>
+			</step>
+			<step>
+				<cmd>To see the icons on cards on the calendar, as you see them on the board, click somewhere in the day space
+					(outside the cards).</cmd>
+			</step>
+			<step>
+				<cmd>You can add new cards for a certain date by clicking the day in the calendar.</cmd>
+				<info><p><image href="../_img/crop_calendar-add-card.png" width="400px" placement="break"/></p>
+					<p>Type the card title, select a list from the board and the position in the list, then click
+							<uicontrol>Add</uicontrol>.</p></info>
+				<stepresult>The due date on the new card is automatically set to the day you clicked in the calendar, and the time is
+					by default 12:00 PM. You can click the card and edit the due date and other details.</stepresult>
+			</step>
+			<step>
+				<cmd>Click <uicontrol>Calendar</uicontrol> again, to return to the board view.</cmd>
+			</step>
+		</steps-unordered>
+	</taskbody>
 </task>

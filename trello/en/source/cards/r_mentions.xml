@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference xml:lang="en-US" id="r_mentions">
-  <title>Mentions</title>
-  <refbody>
-	<section>
-		<p></p>
-	</section>
-  </refbody>
+	<title>Mentions</title>
+	<refbody>
+		<section>
+			<p>You can mention board members on card details: in the description, in checklist items and in comments. The syntax is @username. The members will be notified.</p>
+		</section>
+	</refbody>
 </reference>

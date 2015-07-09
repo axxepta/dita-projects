@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+	<title>keymap: Trello graphics</title>
+	<topicgroup>
+		<topicmeta>
+			<navtitle>CARDS</navtitle>
+		</topicmeta>
+
+		<keydef keys="win_new-card" href="win_new-card.png" format="png" navtitle="New Card Details">
+			<topicmeta>
+				<navtitle>New Card Details</navtitle>
+				<linktext>New Card Details</linktext>
+			</topicmeta>
+		</keydef>
+
+		<keydef keys="crop_card-descr" href="crop_card-descr.png" format="png" navtitle="Card Description">
+			<topicmeta>
+				<navtitle>Card Description</navtitle>
+				<linktext>Card Description</linktext>
+			</topicmeta>
+		</keydef>
+
+		<keydef keys="crop_add-checklist" href="crop_add-checklist.png" format="png" navtitle="Add checklist">
+			<topicmeta>
+				<navtitle>Add checklist</navtitle>
+				<linktext>Add checklist</linktext>
+			</topicmeta>
+		</keydef>
+
+		<keydef keys="crop_new-checklist" href="crop_new-checklist.png" format="png" navtitle="New checklist">
+			<topicmeta>
+				<navtitle>New checklist</navtitle>
+				<linktext>New checklist</linktext>
+			</topicmeta>
+		</keydef>
+
+		<keydef keys="crop_checklist-progress" href="crop_checklist-progress.png" format="png" navtitle="Checklist progress">
+			<topicmeta>
+				<navtitle>Checklist progress</navtitle>
+				<linktext>Checklist progress</linktext>
+			</topicmeta>
+		</keydef>
+
+		<keydef keys="crop_add-attachment" href="crop_add-attachment.png" format="png" navtitle="Add attachment">
+			<topicmeta>
+				<navtitle>Add attachment</navtitle>
+				<linktext>Add attachment</linktext>
+			</topicmeta>
+		</keydef>
+
+		<keydef keys="crop_card-attachments" href="crop_card-attachments.png" format="png" navtitle="Card attachments">
+			<topicmeta>
+				<navtitle>Card attachments</navtitle>
+				<linktext>Card attachments</linktext>
+			</topicmeta>
+		</keydef>
+
+		<keydef keys="crop_commenting" href="crop_commenting.png" format="png" navtitle="Commenting">
+			<topicmeta>
+				<navtitle>Commenting</navtitle>
+				<linktext>Commenting</linktext>
+			</topicmeta>
+		</keydef>
+		
+		<keydef keys="crop_card-symbols" href="crop_card-symbols.png" format="png" navtitle="Card Symbols">
+			<topicmeta>
+				<navtitle>Card Symbols</navtitle>
+				<linktext>Card Symbols</linktext>
+			</topicmeta>
+		</keydef>
+
+	</topicgroup>
+
+	<topicgroup>
+		<topicmeta>
+			<navtitle>CHANGE</navtitle>
+		</topicmeta>
+
+	</topicgroup>
+
+	<topicgroup>
+		<topicmeta>
+			<navtitle>EXPORT</navtitle>
+		</topicmeta>
+
+	</topicgroup>
+</map>

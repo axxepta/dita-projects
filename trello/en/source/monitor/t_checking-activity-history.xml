@@ -1,15 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
 <task xml:lang="en-US" id="t_checking-activity-history">
-    <title>Checking activity history</title>
-    <taskbody>
-        <context>
-            <p></p>
-        </context>
-        <steps>
-            <step>
-                <cmd></cmd>
-            </step>
-        </steps>
-    </taskbody>
+	<title>Checking activity history</title>
+	<taskbody>
+		<steps-unordered>
+			<step>
+				<cmd>To see the latest activity on a board, click <uicontrol>Show Menu</uicontrol> on the top menu bar of the
+					board.</cmd>
+				<info>Each user action is logged under <msgph>Activity</msgph> with a short message and a timestamp. For example:
+					<msgblock>Admin added User1 to CardXYZ yesterday at 6:32 PM</msgblock> or
+					<msgblock>User1 added ListABC to this board a few seconds ago</msgblock>.</info>
+			</step>
+			<step>
+				<cmd>To see the activity on a card, open the card.</cmd>
+				<info><p>The user actions on that card are logged in the same manner as in the board activity.</p>
+					<image href="../_img/crop_card-activity.png" placement="break" width="350px"/></info>
+			</step>
+			<step>
+				<cmd>Use the commenting feature on the cards, to record your notes and to discuss with the team.</cmd>
+			</step>
+		</steps-unordered>
+	</taskbody>
 </task>

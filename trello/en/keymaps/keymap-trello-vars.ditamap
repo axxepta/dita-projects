@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+	<title>keymap: Trello product variables</title>
+	<topicgroup><topicmeta><navtitle>Product</navtitle></topicmeta>
+		<keydef keys="prod">
+			<topicmeta><keywords><keyword>Trello</keyword></keywords></topicmeta>
+		</keydef>
+	</topicgroup>
+	<topicgroup><topicmeta><navtitle>Company</navtitle></topicmeta>
+		
+	</topicgroup>
+	<topicgroup><topicmeta><navtitle>Email addresses</navtitle></topicmeta>
+		
+	</topicgroup>
+	<topicgroup><topicmeta><navtitle>Web addresses</navtitle></topicmeta>
+		
+	</topicgroup>
+</map>

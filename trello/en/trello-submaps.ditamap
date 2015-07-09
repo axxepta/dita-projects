@@ -3,7 +3,7 @@
 <map xml:lang="en-US">
 	<title>Collaborating online in Trello</title>
 	<!-- sample DITA project -->
-	<!-- ditamap with topicrefs, maprefs, and reltable, but without reuse, keys, filters -->
+	<!-- ditamap with topicrefs, mapref, and reltable, but without reuse, keys, filters -->
 	<topicmeta>
 		<author>@thinkDITA</author>
 		<publisher>PANTOPIX GmbH &amp; Co. KG</publisher>
@@ -30,19 +30,12 @@
 		<topicref href="source/t_inviting-participants.xml" navtitle="Inviting participants" format="dita" type="task"/>
 	</topicref>
 	<mapref href="source/collab/collaborate.ditamap" format="ditamap" type="map"/>
-	<mapref href="source/monitor/monitoring.ditamap" format="ditamap" type="map"/>
-	<mapref href="source/cards/card-content.ditamap" format="ditamap" type="map"/>
-	<mapref href="source/export/exporting.ditamap" format="ditamap" type="map"/>
-	<mapref href="source/change/changing-items.ditamap" format="ditamap" type="map"/>
-	<topicref href="source/r_examples-of-boards.xml" navtitle="Examples of boards" format="dita" type="reference"/>
-	<topicref href="source/r_shortcuts-and-tips.xml" navtitle="Shortcuts and tips" format="dita" type="reference"/>
 
 	<!-- ######## RELTABLE ######## -->
 	<reltable>
 		<relrow>
 			<relcell>
-				<topicref href="source/t_ov_planning-your-projects-with-trello.xml" navtitle="Planning your projects with Trello"
-					format="dita" type="task"/>
+				<topicref href="source/c_ov_trello.xml" navtitle="Planning your projects with Trello" format="dita" type="concept"/>
 			</relcell>
 			<relcell>
 				<topicref href="https://trello.com/inspiringboards" format="html" scope="external" navtitle="More inspiring boards"/>

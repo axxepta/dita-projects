@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference xml:lang="en-US" id="r_attachments">
-  <title>Attachments</title>
-  <refbody>
-	<section>
-		<p></p>
-	</section>
-  </refbody>
+	<title>Attachments</title>
+	<refbody>
+		<section><p>You can add files, images and links to a card, either by drag &amp; drop over the card, or by using the <uicontrol
+					keyref="opt_attachment"/> option.</p><image keyref="crop_add-attachment" width="300px" placement="break"
+				/><p>The attached files or links are listed in the card details. Images can even be used as covers for
+				cards.</p><image keyref="crop_card-attachments" placement="break" width="600px"/></section>
+	</refbody>
 </reference>

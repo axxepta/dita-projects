@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+	<title>keymap: Trello GUI strings</title>
+	<topicgroup>
+		<topicmeta>
+			<navtitle>Profile</navtitle>
+		</topicmeta>
+
+	</topicgroup>
+
+	<topicgroup>
+		<topicmeta>
+			<navtitle>Organization</navtitle>
+		</topicmeta>
+
+	</topicgroup>
+
+	<topicgroup>
+		<topicmeta>
+			<navtitle>Board</navtitle>
+		</topicmeta>
+
+	</topicgroup>
+
+	<topicgroup>
+		<topicmeta>
+			<navtitle>List</navtitle>
+		</topicmeta>
+
+	</topicgroup>
+
+	<topicgroup>
+		<topicmeta>
+			<navtitle>Card</navtitle>
+		</topicmeta>
+		<keydef keys="opt_edit-descr">
+			<topicmeta>
+				<keywords>
+					<keyword>Edit the description</keyword>
+				</keywords>
+			</topicmeta>
+		</keydef>
+		<keydef keys="opt_archive">
+			<topicmeta>
+				<keywords>
+					<keyword>Archive</keyword>
+				</keywords>
+			</topicmeta>
+		</keydef>
+		<keydef keys="opt_formatting">
+			<topicmeta>
+				<keywords>
+					<keyword>Formatting help</keyword>
+				</keywords>
+			</topicmeta>
+		</keydef>
+		<keydef keys="btn_checklist">
+			<topicmeta>
+				<keywords>
+					<keyword>Checklist</keyword>
+				</keywords>
+			</topicmeta>
+		</keydef>
+		<keydef keys="btn_add">
+			<topicmeta>
+				<keywords>
+					<keyword>Add</keyword>
+				</keywords>
+			</topicmeta>
+		</keydef>
+		<keydef keys="opt_copy-items">
+			<topicmeta>
+				<keywords>
+					<keyword>Copy Items From</keyword>
+				</keywords>
+			</topicmeta>
+		</keydef>
+		<keydef keys="opt_attachment">
+			<topicmeta>
+				<keywords>
+					<keyword>Attachment</keyword>
+				</keywords>
+			</topicmeta>
+		</keydef>
+		<keydef keys="opt_convert2card">
+			<topicmeta>
+				<keywords>
+					<keyword>Convert to Card</keyword>
+				</keywords>
+			</topicmeta>
+		</keydef>
+		<keydef keys="opt_card-more">
+			<topicmeta>
+				<keywords>
+					<keyword>Share and more</keyword>
+				</keywords>
+			</topicmeta>
+		</keydef>
+	</topicgroup>
+</map>

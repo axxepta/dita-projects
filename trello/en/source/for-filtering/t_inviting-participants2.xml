@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task xml:lang="en-US" id="t_inviting-participants">
+	<title>Inviting participants</title>
+	<taskbody>
+		<context>
+			<p rev="20150708">You can add (invite) members to join an organization or to join a board, if you have the required permissions.</p>
+			<p rev="20150709">If you have permission, you can add Trello users to your boards automatically and you can invite new users by email to join an organization or to join a board.</p>
+		</context>
+		<steps-unordered>
+			<step>
+				<cmd>To add members to an organization, open the organization page and click <menucascade>
+						<uicontrol>Members</uicontrol>
+						<uicontrol>Add Members</uicontrol>
+					</menucascade>.</cmd>
+				<choices>
+					<choice>If the new members already have a Trello account, you can search them by their user name or email
+						address. They are added directly to your organization and receive an email notification.</choice>
+					<choice>If the new members do not have a Trello account, type their email address and you'll be asked for a
+						full name, then click <uicontrol>Send</uicontrol> to invite them by email.</choice>
+				</choices>
+				<info audience="admin">By default, the new members are added with <uicontrol>Normal</uicontrol> permissions (can view
+					and edit cards, but cannot change settings). If you are an Admin and a new member has to be able to change the
+					organization settings, you can also set them as <uicontrol>Admin</uicontrol>.</info>
+			</step>
+			<step>
+				<cmd>Similarly, to add members to a board, open the organization page and click <menucascade>
+						<uicontrol>Show Menu</uicontrol>
+						<uicontrol>Add Members</uicontrol>
+					</menucascade>.</cmd>
+				<info><image href="../_img/crop_add-member-board.png"/><p audience="admin">By clicking their avatar, you can change
+						the permissions (Normal or Admin).</p></info>
+			</step>
+		</steps-unordered>
+		<postreq>The invited members have to join the organization, by clicking the hyperlink in the email message and signing up to
+			Trello.</postreq>
+	</taskbody>
+</task>

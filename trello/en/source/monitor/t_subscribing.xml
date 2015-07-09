@@ -1,15 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
 <task xml:lang="en-US" id="t_subscribing">
-    <title>Subscribing</title>
-    <taskbody>
-        <context>
-            <p></p>
-        </context>
-        <steps>
-            <step>
-                <cmd></cmd>
-            </step>
-        </steps>
-    </taskbody>
+	<title>Subscribing</title>
+	<taskbody>
+		<context>
+			<p>You see an eye-icon <image href="../_img/ico_subscribed.png" placement="inline"/> on the cards, lists and boards you are
+				monitoring and you receive email notifications every time something changes on that item.</p>
+			<p>If you are also using the Trello App, you can see app notifications and badges on your mobile devices.</p>
+		</context>
+		<steps-unordered>
+			<step>
+				<cmd>Cards: If you want to monitor the activity on a card, open the card and click <uicontrol>Subscribe</uicontrol>.</cmd>
+				<info>If you are assigned to a card, you are automatically subscribed to it.</info>
+				<stepresult> </stepresult>
+			</step>
+			<step>
+				<cmd>Lists: If you want to subscribe to a certain list on a board, click the arrow on the list title bar, then click
+						<uicontrol>Subscribe</uicontrol>.</cmd>
+			</step>
+			<step>
+				<cmd>Boards: If you want to monitor a board, click <menucascade>
+						<uicontrol>Show Menu</uicontrol>
+						<uicontrol>Menu</uicontrol>
+						<uicontrol>Subscribe</uicontrol>
+					</menucascade>.</cmd>
+			</step>
+		</steps-unordered>
+		<result><p>When you open Trello in the browser or in the app, the icons show if there are new notifications since you last closed
+				Trello.</p>
+			<ul>
+				<li><image href="../_img/ico_trello-notif.png" placement="inline"/> browser icon</li>
+				<li><image href="../_img/ico_bell-red.png" placement="inline"/> Trello banner icon next to your user name</li>
+				<li><image href="../_img/ico_bell-card.png" placement="inline"/> card icon</li>
+			</ul></result>
+	</taskbody>
 </task>

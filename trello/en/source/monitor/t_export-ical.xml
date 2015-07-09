@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task xml:lang="en-US" id="t_export-ical">
+	<title>Exporting iCalendar</title>
+	<taskbody>
+		<prereq><p conref="../_warehouse/r_warehouse.xml#r_warehouse/reuse_p-admin-powerup"/></prereq>
+		<context>
+			<note conref="../_warehouse/r_warehouse.xml#r_warehouse/reuse_note-ical"/>
+		</context>
+		<steps>
+			<step>
+				<cmd>To add the board calendar to your Outlook or to other calendar application, go to <menucascade conref="../_warehouse/r_warehouse.xml#r_warehouse/reuse_mcasc-powerups"><uicontrol></uicontrol></menucascade> and click the settings icon next to the <msgph>Calendar</msgph> feature.</cmd>
+				<stepresult>
+					<image href="../_img/crop_ical-setting.png" width="300px" placement="break"/>
+				</stepresult>
+			</step>
+			<step>
+				<cmd>Under <msgph>Enable iCalendar Feed</msgph> click <uicontrol>Enabled</uicontrol>.</cmd>
+			</step>
+			<step>
+				<cmd>Copy the feed and add it to the calendar in your email client, so you can see the cards on their due dates directly in your calendar.</cmd>
+				<info>You can even group multiple board calendars in your third-party application.</info>
+			</step>
+			<step>
+				<cmd>When you want to refresh the entries in your calendar, click <uicontrol>Regenerate Your Feed URL</uicontrol> and add the URL again to your email calendar.</cmd>
+			</step>
+		</steps>
+	</taskbody>
+</task>

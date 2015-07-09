@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map>
+   <appContext helpID="c_ov_trello" path="source/c_ov_trello.html"/>
+   <appContext helpID="t_keeping-to-do-lists" path="source/t_keeping-to-do-lists.html"/>
+   <appContext helpID="t_agile-boards" path="source/t_agile-boards.html"/>
+   <appContext helpID="t_brainstorming" path="source/t_brainstorming.html"/>
+   <appContext helpID="t_voting" path="source/t_voting.html"/>
+   <appContext helpID="t_writing-drafts" path="source/t_writing-drafts.html"/>
+   <appContext helpID="t_starting-a-trello-board"
+               path="source/t_ov_starting-a-trello-board.html"/>
+   <appContext helpID="t_creating-an-user-account"
+               path="source/t_creating-an-user-account.html"/>
+   <appContext helpID="t_creating-a-personal-organization"
+               path="source/t_creating-a-personal-organization.html"/>
+   <appContext helpID="t_creating-a-business-organization"
+               path="source/t_creating-a-business-organization.html"/>
+   <appContext helpID="t_creating-a-board" path="source/t_creating-a-board.html"/>
+   <appContext helpID="t_inviting-participants"
+               path="source/for-filtering/t_inviting-participants2.html"/>
+   <appContext helpID="t_collaborating-on-the-board"
+               path="source/collab/t_ov_collaborating-on-the-board.html"/>
+   <appContext helpID="t_creating-lists-on-the-board"
+               path="source/collab/t_creating-lists-on-the-board.html"/>
+   <appContext helpID="t_creating-cards-on-the-board"
+               path="source/collab/t_creating-cards-on-the-board.html"/>
+   <appContext helpID="t_assigning-members-to-cards"
+               path="source/collab/t_assigning-members-to-cards.html"/>
+   <appContext helpID="t_setting-due-dates"
+               path="source/collab/t_setting-due-dates.html"/>
+   <appContext helpID="t_setting-labels" path="source/collab/t_setting-labels.html"/>
+   <appContext helpID="t_prioritizing-by-voting-on-cards"
+               path="source/collab/t_prioritizing-by-voting-on-cards.html"/>
+</map>

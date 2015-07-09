@@ -1,15 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
 <task xml:lang="en-US" id="t_monitoring-trello-boards">
-    <title>Monitoring Trello boards</title>
-    <taskbody>
-        <context>
-            <p></p>
-        </context>
-        <steps>
-            <step>
-                <cmd></cmd>
-            </step>
-        </steps>
-    </taskbody>
+	<title>Monitoring Trello boards</title>
+	<taskbody>
+		<context>
+			<p>The Trello boards support your team work through notifications, commenting and calendar features.</p>
+		</context>
+	</taskbody>
 </task>

@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference xml:lang="en-US" id="r_title">
-  <title>Title</title>
-  <refbody>
-	<section>
-		<p></p>
-	</section>
-  </refbody>
+	<title>Card titles</title>
+	<refbody>
+		<section>
+			<p><ph conkeyref="r_warehouse/reuse_p-titles"/></p>
+			
+		</section>
+	</refbody>
 </reference>

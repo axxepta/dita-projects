@@ -1,0 +1,22 @@
+//List of files which are indexed.
+fl = new Array();
+fl["0"]= "source/c_ov_trello.html";
+fl["1"]= "source/t_agile-boards.html";
+fl["2"]= "source/t_brainstorming.html";
+fl["3"]= "source/t_creating-a-board.html";
+fl["4"]= "source/t_creating-a-business-organization.html";
+fl["5"]= "source/t_creating-a-personal-organization.html";
+fl["6"]= "source/t_creating-an-user-account.html";
+fl["7"]= "source/t_keeping-to-do-lists.html";
+fl["8"]= "source/t_ov_starting-a-trello-board.html";
+fl["9"]= "source/t_voting.html";
+fl["10"]= "source/t_writing-drafts.html";
+fl["11"]= "source/collab/t_assigning-members-to-cards.html";
+fl["12"]= "source/collab/t_creating-cards-on-the-board.html";
+fl["13"]= "source/collab/t_creating-lists-on-the-board.html";
+fl["14"]= "source/collab/t_ov_collaborating-on-the-board.html";
+fl["15"]= "source/collab/t_prioritizing-by-voting-on-cards.html";
+fl["16"]= "source/collab/t_setting-due-dates.html";
+fl["17"]= "source/collab/t_setting-labels.html";
+fl["18"]= "source/for-filtering/t_inviting-participants2.html";
+var doStem = false

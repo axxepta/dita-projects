@@ -2,12 +2,14 @@
 <!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
 <map>
 	<title>Submap: Adding content to cards</title>
-	<topicref href="t_ov_adding-content-to-cards.xml" navtitle="Adding content to cards" format="dita" type="task">
-		<topicref href="r_title.xml" navtitle="Title" format="dita" type="reference"/>
-		<topicref href="r_description.xml" navtitle="Description" format="dita" type="reference"/>
-		<topicref href="r_checklists.xml" navtitle="Checklists" format="dita" type="reference"/>
-		<topicref href="r_attachments.xml" navtitle="Attachments" format="dita" type="reference"/>
-		<topicref href="r_comments.xml" navtitle="Comments" format="dita" type="reference"/>
-		<topicref href="r_mentions.xml" navtitle="Mentions" format="dita" type="reference"/>
+	<topicref keys="t_ov_adding-content-to-cards" href="t_ov_adding-content-to-cards.xml" navtitle="Adding content to cards" format="dita"
+		type="task">
+		<topicref keys="r_title" href="r_title.xml" navtitle="Title" format="dita" type="reference"/>
+		<topicref keys="r_description" href="r_description.xml" navtitle="Description" format="dita" type="reference"/>
+		<topicref keys="t_checklists" href="t_checklists.xml" navtitle="Checklists" format="dita" type="task"/>
+		<topicref keys="r_attachments" href="r_attachments.xml" navtitle="Attachments" format="dita" type="reference"/>
+		<topicref keys="r_comments" href="r_comments.xml" navtitle="Comments" format="dita" type="reference"/>
+		<topicref keys="r_mentions" href="r_mentions.xml" navtitle="Mentions" format="dita" type="reference"/>
+		<topicref keys="r_comments-by-mail" href="r_comments-by-mail.xml" navtitle="Add content by email" format="dita" type="reference"/>
 	</topicref>
 </map>

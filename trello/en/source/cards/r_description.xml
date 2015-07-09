@@ -1,10 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference xml:lang="en-US" id="r_description">
-  <title>Description</title>
-  <refbody>
-	<section>
-		<p></p>
-	</section>
-  </refbody>
+	<title>Card description</title>
+	<refbody>
+		<section>
+			<p>If you want to apply basic formatting to the description text, click <uicontrol keyref="opt_formatting"/> and follow the markdown syntax.  For example:</p>
+			<codeblock>Testing HTML output
+================
+Select or write a test project
+-----------------------------------
+
+Make sure it contains the usual and the *less usual* content types:
+
+- all topic types  
+- inline, block, landscape images, with and without caption  
+- ordered, unordered, simple lists, definition lists  
+- tables with and without caption, headers, merged cells, landscape  
+- all **block** and **inline** elements  
+- all note types allowed
+- all languages used  
+- hyperlinks
+- variables  
+- conditions  
+- etc.  
+
+Select the HTML pipeline
+--------------------------------
+
+* Using an existing HTML transformation with a few parameters set?  
+* Installing a custom HTML plugin.  
+* Setting up the publication scenarios
+
+Publish and QA
+--------------------
+
+Generate the HTML output and use a checklist for the QA.
+			</codeblock>
+			<p>Result:</p>
+			<image keyref="crop_card-descr"/>
+		</section>
+	</refbody>
 </reference>

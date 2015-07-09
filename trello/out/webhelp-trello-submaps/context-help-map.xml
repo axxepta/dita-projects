@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <map>
-   <appContext helpID="t_planning-your-projects-with-trello"
-               path="source/t_ov_planning-your-projects-with-trello.html"/>
+   <appContext helpID="c_ov_trello" path="source/c_ov_trello.html"/>
    <appContext helpID="t_keeping-to-do-lists" path="source/t_keeping-to-do-lists.html"/>
    <appContext helpID="t_agile-boards" path="source/t_agile-boards.html"/>
    <appContext helpID="t_brainstorming" path="source/t_brainstorming.html"/>
@@ -31,32 +30,4 @@
    <appContext helpID="t_setting-labels" path="source/collab/t_setting-labels.html"/>
    <appContext helpID="t_prioritizing-by-voting-on-cards"
                path="source/collab/t_prioritizing-by-voting-on-cards.html"/>
-   <appContext helpID="t_monitoring-trello-boards"
-               path="source/monitor/t_ov_monitoring-trello-boards.html"/>
-   <appContext helpID="t_checking-activity-history"
-               path="source/monitor/t_checking-activity-history.html"/>
-   <appContext helpID="t_subscribing" path="source/monitor/t_subscribing.html"/>
-   <appContext helpID="t_creating-a-calendar"
-               path="source/monitor/t_creating-a-calendar.html"/>
-   <appContext helpID="t_adding-content-to-cards"
-               path="source/cards/t_ov_adding-content-to-cards.html"/>
-   <appContext helpID="r_title" path="source/cards/r_title.html"/>
-   <appContext helpID="r_description" path="source/cards/r_description.html"/>
-   <appContext helpID="r_checklists" path="source/cards/r_checklists.html"/>
-   <appContext helpID="r_attachments" path="source/cards/r_attachments.html"/>
-   <appContext helpID="r_comments" path="source/cards/r_comments.html"/>
-   <appContext helpID="r_mentions" path="source/cards/r_mentions.html"/>
-   <appContext helpID="t_exporting-content-from-trello"
-               path="source/export/t_ov_exporting-content-from-trello.html"/>
-   <appContext helpID="t_sharing" path="source/export/t_sharing.html"/>
-   <appContext helpID="t_printing" path="source/export/t_printing.html"/>
-   <appContext helpID="t_exporting" path="source/export/t_exporting.html"/>
-   <appContext helpID="t_changing-items" path="source/change/t_ov_changing-items.html"/>
-   <appContext helpID="t_moving-items" path="source/change/t_moving-items.html"/>
-   <appContext helpID="t_copying-items" path="source/change/t_copying-items.html"/>
-   <appContext helpID="t_archiving-items" path="source/change/t_archiving-items.html"/>
-   <appContext helpID="t_deleting-cards" path="source/change/t_deleting-cards.html"/>
-   <appContext helpID="t_closing-boards" path="source/change/t_closing-boards.html"/>
-   <appContext helpID="r_examples-of-boards" path="source/r_examples-of-boards.html"/>
-   <appContext helpID="r_shortcuts-and-tips" path="source/r_shortcuts-and-tips.html"/>
 </map>

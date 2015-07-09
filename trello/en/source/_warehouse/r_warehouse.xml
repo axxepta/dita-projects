@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference xml:lang="en-US" id="r_warehouse">
+	<title>Warehouse of reused texts</title>
+	<refbody>
+		<section>
+			<title>Paragraphs</title>
+			<p id="reuse_p-admin-powerup">Only board administrators can enable Power-Up features.</p>
+			<p><ph id="reuse_p-titles">Try to write short, intuitive and unique titles, for a fast overview and for efficient search results.</ph></p>
+		</section>
+		<section>
+			<title>Notes</title>
+			<note type="warning" id="reuse_note-move-cal">Moving cards on the calendar results in changing their due date.</note>
+			<note id="reuse_note-ical">Third-party applications do not reflect changes on Trello boards in real time.</note>
+		</section>
+		<section>
+			<title>GUI Elements</title>
+			<p><menucascade id="reuse_mcasc-powerups">
+					<uicontrol>Show Menu</uicontrol>
+					<uicontrol>Menu</uicontrol>
+					<uicontrol>Power-Ups</uicontrol>
+				</menucascade></p>
+		</section>
+	</refbody>
+</reference>

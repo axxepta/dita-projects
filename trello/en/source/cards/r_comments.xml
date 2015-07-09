@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference xml:lang="en-US" id="r_comments">
-  <title>Comments</title>
-  <refbody>
-	<section>
-		<p></p>
-	</section>
-  </refbody>
+	<title>Comments</title>
+	<refbody>
+		<section>
+			<p>Use the commenting feature on cards, to record your notes, activity, discussions, etc.</p>
+			<image keyref="crop_commenting" placement="break" width="400px"/>
+			<p>You can refer to other cards (using the card button), add more attachments, mention members (@username) and reply to comments.</p>
+		</section>
+	</refbody>
 </reference>
