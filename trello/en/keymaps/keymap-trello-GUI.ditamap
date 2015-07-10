@@ -6,7 +6,20 @@
 		<topicmeta>
 			<navtitle>Profile</navtitle>
 		</topicmeta>
-
+		<keydef keys="btn_boards">
+			<topicmeta>
+				<keywords>
+					<keyword>Boards</keyword>
+				</keywords>
+			</topicmeta>
+		</keydef>
+		<keydef keys="opt_boards-closed">
+			<topicmeta>
+				<keywords>
+					<keyword>See closed boards</keyword>
+				</keywords>
+			</topicmeta>
+		</keydef>
 	</topicgroup>
 
 	<topicgroup>
@@ -70,6 +83,49 @@
 				</keywords>
 			</topicmeta>
 		</keydef>
+		<keydef keys="mnu_board-copy">
+			<topicmeta>
+				<keywords>
+					<keyword>Copy Board</keyword>
+				</keywords>
+			</topicmeta>
+		</keydef>
+		
+		<keydef keys="win_copy-board">
+			<topicmeta>
+				<keywords>
+					<keyword>Copy Board</keyword>
+				</keywords>
+			</topicmeta>
+		</keydef>
+		<keydef keys="btn_create">
+			<topicmeta>
+				<keywords>
+					<keyword>Create</keyword>
+				</keywords>
+			</topicmeta>
+		</keydef>
+		<keydef keys="mnu_board-close">
+			<topicmeta>
+				<keywords>
+					<keyword>Close Board</keyword>
+				</keywords>
+			</topicmeta>
+		</keydef>
+		<keydef keys="mnu_board-archive">
+			<topicmeta>
+				<keywords>
+					<keyword>Archived items</keyword>
+				</keywords>
+			</topicmeta>
+		</keydef>
+		<keydef keys="opt_archive-restore">
+			<topicmeta>
+				<keywords>
+					<keyword>Send to Board</keyword>
+				</keywords>
+			</topicmeta>
+		</keydef>
 	</topicgroup>
 
 	<topicgroup>
@@ -80,6 +136,27 @@
 			<topicmeta>
 				<keywords>
 					<keyword>Move List</keyword>
+				</keywords>
+			</topicmeta>
+		</keydef>
+		<keydef keys="opt_list-copy">
+			<topicmeta>
+				<keywords>
+					<keyword>Copy List</keyword>
+				</keywords>
+			</topicmeta>
+		</keydef>
+		<keydef keys="btn_list-create">
+			<topicmeta>
+				<keywords>
+					<keyword>Create List</keyword>
+				</keywords>
+			</topicmeta>
+		</keydef>
+		<keydef keys="opt_list-archive">
+			<topicmeta>
+				<keywords>
+					<keyword>Archive This List</keyword>
 				</keywords>
 			</topicmeta>
 		</keydef>
@@ -181,7 +258,33 @@
 				</keywords>
 			</topicmeta>
 		</keydef>
-		
-		
+		<keydef keys="btn_copy">
+			<topicmeta>
+				<keywords>
+					<keyword>Copy</keyword>
+				</keywords>
+			</topicmeta>
+		</keydef>
+		<keydef keys="win_copy-card">
+			<topicmeta>
+				<keywords>
+					<keyword>Copy Card</keyword>
+				</keywords>
+			</topicmeta>
+		</keydef>
+		<keydef keys="btn_create-card">
+			<topicmeta>
+				<keywords>
+					<keyword>Create Card</keyword>
+				</keywords>
+			</topicmeta>
+		</keydef>
+		<keydef keys="opt_delete">
+			<topicmeta>
+				<keywords>
+					<keyword>Delete</keyword>
+				</keywords>
+			</topicmeta>
+		</keydef>
 	</topicgroup>
 </map>

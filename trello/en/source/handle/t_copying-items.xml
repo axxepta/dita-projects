@@ -1,15 +1,62 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
 <task xml:lang="en-US" id="t_copying-items">
-    <title>Copying items</title>
-    <taskbody>
-        <context>
-            <p></p>
-        </context>
-        <steps>
-            <step>
-                <cmd></cmd>
-            </step>
-        </steps>
-    </taskbody>
+	<title>Copying items</title>
+	<taskbody>
+		<steps-unordered>
+			<step>
+				<cmd>To duplicate a board:</cmd>
+				<substeps>
+					<substep>
+						<cmd>Open the board and click <menucascade>
+							<uicontrol keyref="mnu_show-menu"/><uicontrol keyref="mnu_menu"/><uicontrol keyref="mnu_board-copy"/>
+						</menucascade>.</cmd>
+						<stepresult><image keyref="crop_copy-board" placement="break" width="200px"/></stepresult>
+					</substep>
+					<substep>
+						<cmd>Make the settings in the <wintitle keyref="win_copy-board"/> dialog.</cmd>
+						<info>
+							<ul>
+								<li>Type the title of the new board</li>
+								<li>Select the organization and eventually change the visibility settings.</li>
+								<li>Specify if the cards of the original board should be kept in the duplicate board.</li>
+							</ul>
+						</info>
+					</substep>
+					<substep>
+						<cmd>Click <uicontrol keyref="btn_create"/>.</cmd>
+					</substep>
+				</substeps>
+			</step>
+			<step>
+				<cmd>To duplicate a list, open the list menu, click <uicontrol keyref="opt_list-copy"/>, type a name for the new list and click <uicontrol keyref="btn_list-create"/>.</cmd>
+				<stepresult>The duplicate list is created next to the original list.</stepresult>
+			</step>
+			<step>
+				<cmd>To duplicate a card:</cmd>
+				<substeps>
+					<substep>
+						<cmd>Open the card and click <uicontrol keyref="btn_copy"/>.</cmd>
+						<stepresult><image keyref="crop_copy-card" placement="break" width="200px"/></stepresult>
+					</substep>
+					<substep>
+						<cmd>Make the settings in the <wintitle keyref="win_copy-card"/> dialog.</cmd>
+						<info>
+							<ul>
+								<li>Type the title of the new card</li>
+								<li>Select the items you want to keep from the original card: labels, members, attachments, comments.</li>
+								<li>Select the target board, list and position.</li>
+							</ul>
+						</info>
+					</substep>
+					<substep>
+						<cmd>Click <uicontrol keyref="btn_create-card"/>.</cmd>
+					</substep>
+				</substeps>
+			</step>
+			<step>
+				<cmd>Checklists: When you create a new checklist on a card, you can choose to copy an existing one.</cmd>
+			</step>
+		</steps-unordered>
+	</taskbody>
 </task>

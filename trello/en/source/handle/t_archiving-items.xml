@@ -1,15 +1,86 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
 <task xml:lang="en-US" id="t_archiving-items">
-    <title>Archiving items</title>
-    <taskbody>
-        <context>
-            <p></p>
-        </context>
-        <steps>
-            <step>
-                <cmd></cmd>
-            </step>
-        </steps>
-    </taskbody>
+	<title>Archiving items</title>
+	<prolog>
+		<metadata>
+			<keywords>
+				<indexterm>close</indexterm>
+				<indexterm>deleting</indexterm>
+				<indexterm>delete</indexterm>
+				<indexterm>restoring</indexterm>
+				<indexterm>restore</indexterm>
+				<indexterm>reopen</indexterm>
+				<indexterm>recover</indexterm>
+			</keywords>
+		</metadata>
+	</prolog>
+	<taskbody>
+		<prereq>Only board admins can close and re-open a board.</prereq>
+		<context>
+			<p>In <keyword keyref="prod"/>, some items can be deleted, others only closed or archived. If not deleted, items can be
+				restored.</p>
+		</context>
+		<steps-unordered>
+			<step>
+				<cmd>Boards:</cmd>
+				<info>You can only close and eventually re-open a board. Boards cannot be archived or deleted.</info>
+				<choices>
+					<choice>As admin, click <menucascade>
+							<uicontrol keyref="mnu_show-menu"/>
+							<uicontrol keyref="mnu_menu"/>
+							<uicontrol keyref="mnu_board-close"/>
+						</menucascade>.</choice>
+					<choice><p>If you were the admin of a closed board, you can re-open it from the <uicontrol keyref="btn_boards"
+							/> view, under <uicontrol keyref="opt_boards-closed"/>.</p>
+						<image keyref="crop_board-reopen" placement="break" width="350px"/></choice>
+				</choices>
+			</step>
+			<step>
+				<cmd>Lists:</cmd>
+				<info>Lists cannot be deleted, only archived and restored.</info>
+				<choices>
+					<choice>Open the list menu and click <uicontrol keyref="opt_list-archive"/>.</choice>
+					<choice>You can restore an archived list from the board menu.</choice>
+				</choices>
+			</step>
+			<step>
+				<cmd>Cards:</cmd>
+				<choices>
+					<choice>You can directly delete a card by clicking <menucascade>
+							<uicontrol keyref="opt_card-more"/>
+							<uicontrol keyref="opt_delete"/>
+						</menucascade>.</choice>
+					<choice>To archive a card, open it and click <uicontrol keyref="opt_archive"/>. If you want to delete it
+						immediately, click <uicontrol keyref="opt_delete"/>. If you leave it in the archive, you can restore
+						it any time.</choice>
+					<choice><p>To restore a card from the archive, open the board archive from <menucascade>
+							<uicontrol keyref="mnu_show-menu"/>
+							<uicontrol keyref="mnu_menu"/>
+							<uicontrol keyref="mnu_board-archive"/>
+						</menucascade> and click <uicontrol keyref="opt_archive-restore"/> (1).</p><image
+							keyref="crop_archived-card" placement="break" width="300px" id="image_hjx_f3l_qs"/></choice>
+					<choice>To delete an archived card, open the board archive from <menucascade>
+							<uicontrol keyref="mnu_show-menu"/>
+							<uicontrol keyref="mnu_menu"/>
+							<uicontrol keyref="mnu_board-archive"/>
+						</menucascade> and click <uicontrol keyref="opt_delete"/> (2).</choice>
+				</choices>
+			</step>
+			<step>
+				<cmd>Checklists: </cmd>
+				<info><note>If you delete checklists, they are no longer available in the list when creating new ones.</note></info>
+				<choices id="choices_ctd_53l_qs">
+					<choice>To remove an item from a checklist, click the item and click <uicontrol keyref="opt_delete"/>.</choice>
+					<choice>To remove a checklist from a card, click <uicontrol keyref="opt_delete"/> next to it on the card.</choice>
+				</choices>
+			</step>
+			<step>
+				<cmd>Attachments</cmd>
+			</step>
+			<step>
+				<cmd>Comments</cmd>
+			</step>
+		</steps-unordered>
+	</taskbody>
 </task>
