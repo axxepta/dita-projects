@@ -33,7 +33,7 @@
 		<topicmeta>
 			<navtitle>Board</navtitle>
 		</topicmeta>
-		
+
 		<keydef keys="mnu_show-menu">
 			<topicmeta>
 				<keywords>
@@ -90,7 +90,7 @@
 				</keywords>
 			</topicmeta>
 		</keydef>
-		
+
 		<keydef keys="win_copy-board">
 			<topicmeta>
 				<keywords>
@@ -283,6 +283,13 @@
 			<topicmeta>
 				<keywords>
 					<keyword>Delete</keyword>
+				</keywords>
+			</topicmeta>
+		</keydef>
+		<keydef keys="opt_remove">
+			<topicmeta>
+				<keywords>
+					<keyword>Remove</keyword>
 				</keywords>
 			</topicmeta>
 		</keydef>

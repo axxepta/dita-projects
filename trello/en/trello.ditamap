@@ -37,15 +37,14 @@
 		<topicref href="source/t_inviting-participants.xml" navtitle="Inviting participants" format="dita" type="task"/>
 	</topicref>
 	<mapref href="source/collab/collaborate.ditamap" format="ditamap" type="map"/>
-	
+
 	<!-- some topics use conrefs from the warehouse: -->
 	<mapref href="source/monitor/monitoring.ditamap" format="ditamap" type="map"/>
-	
+
 	<!-- all topics use keys for product name, GUI elements, images, plus conkeyrefs to the warehouse: -->
 	<mapref href="source/cards/card-content.ditamap" format="ditamap" type="map"/>
 	<mapref href="source/export/exporting.ditamap" format="ditamap" type="map"/>
 	<mapref href="source/handle/handling-items.ditamap" format="ditamap" type="map"/>
-	<topicref href="source/r_examples-of-boards.xml" navtitle="Examples of boards" format="dita" type="reference"/>
 	<topicref href="source/r_shortcuts-and-tips.xml" navtitle="Shortcuts and tips" format="dita" type="reference"/>
 
 	<!-- ######## RELTABLE ######## -->

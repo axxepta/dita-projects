@@ -101,21 +101,21 @@
 				<linktext>XLS Export</linktext>
 			</topicmeta>
 		</keydef>
-		
+
 		<keydef keys="crop_export-board-xls" href="crop_export-board-xls.png" format="png" navtitle="Exported XLS">
 			<topicmeta>
 				<navtitle>Exported XLS</navtitle>
 				<linktext>Exported XLS</linktext>
 			</topicmeta>
 		</keydef>
-		
+
 		<keydef keys="crop_copy-card" href="crop_copy-card.png" format="png" navtitle="Copy Card">
 			<topicmeta>
 				<navtitle>Copy Card</navtitle>
 				<linktext>Copy Card</linktext>
 			</topicmeta>
 		</keydef>
-		
+
 		<keydef keys="crop_copy-board" href="crop_copy-board.png" format="png" navtitle="Copy Board">
 			<topicmeta>
 				<navtitle>Copy Board</navtitle>

@@ -76,10 +76,10 @@
 				</choices>
 			</step>
 			<step>
-				<cmd>Attachments</cmd>
+				<cmd>Attachments: To delete an attachment, click <uicontrol keyref="opt_remove"/>.</cmd>
 			</step>
 			<step>
-				<cmd>Comments</cmd>
+				<cmd>Comments: To delete a comment you made on a board, click <uicontrol keyref="opt_delete"/>. Admins can delete comments made by non-admin members.</cmd>
 			</step>
 		</steps-unordered>
 	</taskbody>
