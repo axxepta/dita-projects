@@ -1,15 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
 <task xml:lang="en-US" id="t_exporting-content-from-trello">
-    <title>Exporting content from Trello</title>
-    <taskbody>
-        <context>
-            <p></p>
-        </context>
-        <steps>
-            <step>
-                <cmd></cmd>
-            </step>
-        </steps>
-    </taskbody>
+	<title>Exporting content from Trello</title>
+	<taskbody>
+		<context>
+			<p>You can share, print or export board and card contents from Trello.</p>
+			<p product="business">Business Class boards can be exported as CSV and Excel archives, including attachment files.</p>
+		</context>
+	</taskbody>
 </task>

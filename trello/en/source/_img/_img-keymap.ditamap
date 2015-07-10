@@ -62,7 +62,7 @@
 				<linktext>Commenting</linktext>
 			</topicmeta>
 		</keydef>
-		
+
 		<keydef keys="crop_card-symbols" href="crop_card-symbols.png" format="png" navtitle="Card Symbols">
 			<topicmeta>
 				<navtitle>Card Symbols</navtitle>
@@ -84,5 +84,18 @@
 			<navtitle>EXPORT</navtitle>
 		</topicmeta>
 
+		<keydef keys="crop_export-xls" href="crop_export-xls.png" format="png" navtitle="XLS Export">
+			<topicmeta>
+				<navtitle>XLS Export</navtitle>
+				<linktext>XLS Export</linktext>
+			</topicmeta>
+		</keydef>
+		
+		<keydef keys="crop_export-board-xls" href="crop_export-board-xls.png" format="png" navtitle="Exported XLS">
+			<topicmeta>
+				<navtitle>Exported XLS</navtitle>
+				<linktext>Exported XLS</linktext>
+			</topicmeta>
+		</keydef>
 	</topicgroup>
 </map>

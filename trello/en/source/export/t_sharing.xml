@@ -1,15 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
 <task xml:lang="en-US" id="t_sharing">
-    <title>Sharing</title>
-    <taskbody>
-        <context>
-            <p></p>
-        </context>
-        <steps>
-            <step>
-                <cmd></cmd>
-            </step>
-        </steps>
-    </taskbody>
+	<title>Sharing <keyword keyref="prod"/> contents</title>
+	<taskbody>
+		<prereq><ul><li>In order to view the shared content (boards or cards), the recipient has to be a member of the organization, if the board is org-visible, or to be a member of the respective board, if the board is private.</li>
+		<li>In order to contribute to shared content, the recipient has to be a member of the respective board.</li></ul></prereq>
+		<steps-unordered>
+			<step>
+				<cmd>Card: To share a link to a card, click <uicontrol keyref="opt_card-more"/>, copy the URL under <msgph><keyword keyref="opt_card-link"/></msgph>
+				 and send it.</cmd>
+			</step>
+			<step>
+				<cmd>Board: To share a link to a board, click <menucascade>
+					<uicontrol keyref="mnu_show-menu"/><uicontrol keyref="mnu_menu"/><uicontrol keyref="mnu_share-board"/>
+				</menucascade>, copy the URL under <msgph><keyword keyref="opt_board-link"/></msgph> and send it.</cmd>
+			</step>
+		</steps-unordered>
+	</taskbody>
 </task>

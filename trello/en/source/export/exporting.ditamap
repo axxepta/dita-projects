@@ -2,9 +2,9 @@
 <!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
 <map>
 	<title>Submap: Exporting content from Trello</title>
-	<topicref href="t_ov_exporting-content-from-trello.xml" navtitle="Exporting content from Trello" format="dita" type="task">
-		<topicref href="t_sharing.xml" navtitle="Sharing" format="dita" type="task"/>
-		<topicref href="t_printing.xml" navtitle="Printing" format="dita" type="task"/>
-		<topicref href="t_exporting.xml" navtitle="Exporting" format="dita" type="task"/>
+	<topicref keys="t_ov_exporting-content-from-trello" href="t_ov_exporting-content-from-trello.xml" navtitle="Exporting content from Trello" format="dita" type="task">
+		<topicref keys="t_sharing" href="t_sharing.xml" navtitle="Sharing" format="dita" type="task"/>
+		<topicref keys="t_printing" href="t_printing.xml" navtitle="Printing" format="dita" type="task"/>
+		<topicref keys="t_exporting" href="t_exporting.xml" navtitle="Exporting" format="dita" type="task"/>
 	</topicref>
 </map>

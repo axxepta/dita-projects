@@ -5,6 +5,7 @@
 	<topicref href="t_ov_collaborating-on-the-board.xml" navtitle="Collaborating on the board" format="dita" type="task">
 		<topicref href="t_creating-lists-on-the-board.xml" navtitle="Creating lists on the board" format="dita" type="task"/>
 		<topicref href="t_creating-cards-on-the-board.xml" navtitle="Creating cards on the board" format="dita" type="task"/>
+		<topicref href="t_creating-cards-by-email.xml" navtitle="Creating cards by email" format="dita" type="task"/>
 		<topicref href="t_assigning-members-to-cards.xml" navtitle="Assigning members to cards" format="dita" type="task"/>
 		<topicref href="t_setting-due-dates.xml" navtitle="Setting due dates" format="dita" type="task"/>
 		<topicref href="t_setting-labels.xml" navtitle="Setting labels" format="dita" type="task"/>

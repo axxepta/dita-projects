@@ -12,13 +12,13 @@
 			<copyrholder>PANTOPIX GmbH &amp; Co. KG</copyrholder>
 		</copyright>
 	</topicmeta>
-	
+
 	<!-- ######## KEYS & RESOURCES######## -->
 	<topicref keys="r_warehouse" href="source/_warehouse/r_warehouse.xml" format="dita" type="reference" processing-role="resource-only"/>
 	<mapref href="keymaps/keymap-trello-vars.ditamap" format="ditamap" type="map" processing-role="resource-only"/>
 	<mapref href="keymaps/keymap-trello-GUI.ditamap" format="ditamap" type="map" processing-role="resource-only"/>
 	<mapref href="source/_img/_img-keymap.ditamap" format="ditamap" type="map" processing-role="resource-only"/>
-	
+
 
 	<!-- ######## CONTENTS ######## -->
 	<!-- first two chapters do not use submaps, for test purposes -->
@@ -37,12 +37,14 @@
 		<topicref href="source/t_inviting-participants.xml" navtitle="Inviting participants" format="dita" type="task"/>
 	</topicref>
 	<mapref href="source/collab/collaborate.ditamap" format="ditamap" type="map"/>
+	
 	<!-- some topics use conrefs from the warehouse: -->
 	<mapref href="source/monitor/monitoring.ditamap" format="ditamap" type="map"/>
-	<!-- all topics use keys for product name, GUI elements, images, plus conkeyrefs to the warehouse -->
+	
+	<!-- all topics use keys for product name, GUI elements, images, plus conkeyrefs to the warehouse: -->
 	<mapref href="source/cards/card-content.ditamap" format="ditamap" type="map"/>
 	<mapref href="source/export/exporting.ditamap" format="ditamap" type="map"/>
-	<mapref href="source/change/changing-items.ditamap" format="ditamap" type="map"/>
+	<mapref href="source/handle/handling-items.ditamap" format="ditamap" type="map"/>
 	<topicref href="source/r_examples-of-boards.xml" navtitle="Examples of boards" format="dita" type="reference"/>
 	<topicref href="source/r_shortcuts-and-tips.xml" navtitle="Shortcuts and tips" format="dita" type="reference"/>
 

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task xml:lang="en-US" id="t_changing-items">
+	<title>Handling items</title>
+	<taskbody>
+		<context>
+			<p><keyword keyref="prod"/> boards are interactive, so you can easily move cards between lists and boards, but you can also copy contents from one item to another, and convert content items into new cards.</p>
+		</context>
+	</taskbody>
+</task>

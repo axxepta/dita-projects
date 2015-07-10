@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task xml:lang="en-US" id="t_moving-items">
+	<title>Moving items</title>
+	<taskbody>
+		<steps-unordered>
+			<step>
+				<cmd>Card:</cmd>
+				<choices>
+					<choice>Use drag &amp; drop to move a card on the board.</choice>
+					<choice>To move a card between boards, open the card and under <msgph><keyword keyref="lbl_actions"/></msgph> click <uicontrol keyref="opt_move"/>. Select the target board, the list and position to move the card to and click <uicontrol keyref="btn_move"/>.</choice>
+				</choices>
+			</step>
+			<step>
+				<cmd>List:</cmd>
+				<choices>
+					<choice>Use drag &amp; drop to move a list on the board.</choice>
+					<choice>To move a list between boards, open the list menu and click <uicontrol keyref="opt_list-move"/>. Select the target board and position to move the list to and click <uicontrol keyref="btn_move"/>.</choice>
+				</choices>
+			</step>
+			<step>
+				<cmd>Checklist item:</cmd>
+				<choices>
+					<choice>Use drag &amp; drop to move an item up or down within or between checklists on a card.</choice>
+					<choice>To convert an item into a card, click the item, then click <uicontrol keyref="opt_convert2card"/>. The new card is placed on the bottom of the same list.</choice>
+				</choices>
+			</step>
+		</steps-unordered>
+	</taskbody>
+</task>

@@ -1,15 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
 <task xml:lang="en-US" id="t_printing">
-    <title>Printing</title>
-    <taskbody>
-        <context>
-            <p></p>
-        </context>
-        <steps>
-            <step>
-                <cmd></cmd>
-            </step>
-        </steps>
-    </taskbody>
+	<title>Printing <keyword keyref="prod"/> contents</title>
+	<taskbody>
+		<context>
+			<p>For printing boards and cards, you should use the browser printing options. Currently, <keyword keyref="prod"/> offers limited printing capabilities.</p>
+		</context>
+		<steps-unordered>
+			<step>
+				<cmd>Card: To export the contents of a card, click <menucascade>
+					<uicontrol keyref="opt_card-more"/>
+					<uicontrol keyref="mnu_print"/>
+				</menucascade> and select the print target.</cmd>
+			</step>
+			<step>
+				<cmd>Board: To export the contents of a board, click <menucascade>
+					<uicontrol keyref="mnu_show-menu"/><uicontrol keyref="mnu_menu"/><uicontrol keyref="mnu_share-board"/>
+					<uicontrol keyref="mnu_print"/>
+				</menucascade> and select the print target.</cmd>
+			</step>
+		</steps-unordered>
+	</taskbody>
 </task>

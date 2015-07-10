@@ -20,13 +20,69 @@
 		<topicmeta>
 			<navtitle>Board</navtitle>
 		</topicmeta>
-
+		
+		<keydef keys="mnu_show-menu">
+			<topicmeta>
+				<keywords>
+					<keyword>Show Menu</keyword>
+				</keywords>
+			</topicmeta>
+		</keydef>
+		<keydef keys="mnu_menu">
+			<topicmeta>
+				<keywords>
+					<keyword>Menu</keyword>
+				</keywords>
+			</topicmeta>
+		</keydef>
+		<keydef keys="mnu_share-board">
+			<topicmeta>
+				<keywords>
+					<keyword>Share, Print, and Export</keyword>
+				</keywords>
+			</topicmeta>
+		</keydef>
+		<keydef keys="mnu_print">
+			<topicmeta>
+				<keywords>
+					<keyword>Print</keyword>
+				</keywords>
+			</topicmeta>
+		</keydef>
+		<keydef keys="mnu_json">
+			<topicmeta>
+				<keywords>
+					<keyword>Export JSON</keyword>
+				</keywords>
+			</topicmeta>
+		</keydef>
+		<keydef keys="mnu_xls">
+			<topicmeta>
+				<keywords>
+					<keyword>Excel</keyword>
+				</keywords>
+			</topicmeta>
+		</keydef>
+		<keydef keys="opt_board-link">
+			<topicmeta>
+				<keywords>
+					<keyword>Link to this board</keyword>
+				</keywords>
+			</topicmeta>
+		</keydef>
 	</topicgroup>
 
 	<topicgroup>
 		<topicmeta>
 			<navtitle>List</navtitle>
 		</topicmeta>
+		<keydef keys="opt_list-move">
+			<topicmeta>
+				<keywords>
+					<keyword>Move List</keyword>
+				</keywords>
+			</topicmeta>
+		</keydef>
 
 	</topicgroup>
 
@@ -97,5 +153,35 @@
 				</keywords>
 			</topicmeta>
 		</keydef>
+		<keydef keys="opt_card-link">
+			<topicmeta>
+				<keywords>
+					<keyword>Link to this card</keyword>
+				</keywords>
+			</topicmeta>
+		</keydef>
+		<keydef keys="opt_move">
+			<topicmeta>
+				<keywords>
+					<keyword>Move</keyword>
+				</keywords>
+			</topicmeta>
+		</keydef>
+		<keydef keys="btn_move">
+			<topicmeta>
+				<keywords>
+					<keyword>Move</keyword>
+				</keywords>
+			</topicmeta>
+		</keydef>
+		<keydef keys="lbl_actions">
+			<topicmeta>
+				<keywords>
+					<keyword>Actions</keyword>
+				</keywords>
+			</topicmeta>
+		</keydef>
+		
+		
 	</topicgroup>
 </map>

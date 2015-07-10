@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task xml:lang="en-US" id="t_creating-cards-by-email">
+	<title>Creating cards by email</title>
+	<taskbody>
+		<context>
+			<p>Each board member can submit cards to a list on the board by email. Trello creates a user-specific email address for each board.</p>
+		</context>
+		<steps>
+			<step>
+				<cmd>Open the board and go to <menucascade>
+					<uicontrol>Show Menu</uicontrol><uicontrol>Menu</uicontrol><uicontrol>Email-to-board Settings</uicontrol>
+				</menucascade>.</cmd>
+				<info><image href="../_img/crop_email2board.png" width="200px" placement="break"/></info>
+			</step>
+			<step>
+				<cmd>Select the list and the position (<uicontrol>Top</uicontrol> or <uicontrol>Bottom</uicontrol>) for your new cards and click <uicontrol>Email me this address</uicontrol>.</cmd>
+			</step>
+			<step>
+				<cmd>Add the board email address to your contacts (there is a vcard attached).</cmd>
+			</step>
+			<step>
+				<cmd>When you send a card by email:</cmd>
+				<choices>
+					<choice>The subject of the email is the card title</choice>
+					<choice>The body of the email is the card description</choice>
+					<choice>Email attachments are card attachments</choice>
+					<choice>To add labels, add #labelcolor or #labeltag to the email subject</choice>
+					<choice>To assign members to the card, mention them (@username) in the subject or on a separate line in the body</choice>
+				</choices>
+				<info>It may take a while for the server to upload the new card on Trello.</info>
+				<stepresult><image href="../_img/crop_email-card.png" placement="break" width="350px"/></stepresult>
+			</step>
+		</steps>
+	</taskbody>
+</task>

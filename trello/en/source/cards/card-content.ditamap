@@ -9,7 +9,8 @@
 		<topicref keys="t_checklists" href="t_checklists.xml" navtitle="Checklists" format="dita" type="task"/>
 		<topicref keys="r_attachments" href="r_attachments.xml" navtitle="Attachments" format="dita" type="reference"/>
 		<topicref keys="r_comments" href="r_comments.xml" navtitle="Comments" format="dita" type="reference"/>
-		<topicref keys="r_mentions" href="r_mentions.xml" navtitle="Mentions" format="dita" type="reference"/>
 		<topicref keys="r_comments-by-mail" href="r_comments-by-mail.xml" navtitle="Add content by email" format="dita" type="reference"/>
+		<topicref keys="r_mentions" href="r_mentions.xml" navtitle="Mentions" format="dita" type="reference"/>
+		
 	</topicref>
 </map>
