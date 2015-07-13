@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE glossentry PUBLIC "-//OASIS//DTD DITA Glossary//EN" "glossary.dtd">
+<glossentry xml:lang="en-US" id="g_business">
+	<glossterm><keyword keyref="prod"/> Business Class</glossterm>
+	<glossdef>
+		<ul>
+			<li>Google Apps integration</li>
+			<li>Admin privileges</li>
+			<li>Board creation permissions</li>
+			<li>Restrict organization invites by domain or email address</li>
+			<li>Board invitation permissions</li>
+			<li>Deactivate organization members</li>
+			<li>Observers on boards</li>
+			<li>View organization members activity, boards, and cards</li>
+			<li>Saved search</li>
+			<li><abbreviated-form keyref="g_gold"/> features for organization members</li>
+			<li>Bulk data export &amp; Export history</li>
+			<li>CSV exports for individual boards</li>
+			<li>Billing information &amp; Invoices</li>
+		</ul>
+	</glossdef><glossBody><glossAlt><glossAbbreviation>Business</glossAbbreviation></glossAlt></glossBody>
+</glossentry>

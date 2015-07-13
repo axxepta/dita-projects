@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE glossentry PUBLIC "-//OASIS//DTD DITA Glossary//EN" "glossary.dtd">
+<glossentry xml:lang="en-US" id="g_gold">
+	<glossterm><keyword keyref="prod"/> Gold</glossterm>
+	<glossdef><p><keyword keyref="prod"/> Gold enables additional features for individual users.</p>
+	<ul>
+		<li>File uploads up to 250 MB</li>
+		<li>Custom backgrounds for boards</li>
+		<li>Stickers for cards</li>
+		<li>Emojis for cards</li>
+	</ul>
+	<p>Costs: 45$ per year, or 5$ per month, or up to 12 months free when referring friends.</p></glossdef>
+	<glossBody><glossAlt><glossAbbreviation>Gold</glossAbbreviation></glossAlt></glossBody>
+</glossentry>

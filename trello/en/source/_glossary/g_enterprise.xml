@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE glossentry PUBLIC "-//OASIS//DTD DITA Glossary//EN" "glossary.dtd">
+<glossentry xml:lang="en-US" id="g_enterprise">
+	<glossterm><keyword keyref="prod"/> Enterprise</glossterm>
+	<glossdef><p><keyword keyref="prod"/> Enterprise enables additional features for companies with at least 100 users. Apart from <abbreviated-form keyref="g_gold"/> and Business Class, it adds the enterprise features:</p>
+	<ul>
+		<li>priority email</li>
+		<li>phone support</li>
+		<li>dedicated contact person</li>
+		<li>privacy and security</li>
+		<li>simplified billing</li>
+	</ul>
+	</glossdef><glossBody><glossAlt><glossAbbreviation>Enterprise</glossAbbreviation></glossAlt></glossBody>
+</glossentry>

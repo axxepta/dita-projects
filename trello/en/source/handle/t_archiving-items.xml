@@ -16,7 +16,7 @@
 		</metadata>
 	</prolog>
 	<taskbody>
-		<prereq>Only board admins can close and re-open a board.</prereq>
+		<prereq><abbreviated-form keyref="g_admin"/> can close and re-open a board.</prereq>
 		<context>
 			<p>In <keyword keyref="prod"/>, some items can be deleted, others only closed or archived. If not deleted, items can be
 				restored.</p>
@@ -79,7 +79,7 @@
 				<cmd>Attachments: To delete an attachment, click <uicontrol keyref="opt_remove"/>.</cmd>
 			</step>
 			<step>
-				<cmd>Comments: To delete a comment you made on a board, click <uicontrol keyref="opt_delete"/>. Admins can delete comments made by non-admin members.</cmd>
+				<cmd>Comments: To delete a comment you made on a board, click <uicontrol keyref="opt_delete"/>. <abbreviated-form keyref="g_admin"/> can delete comments made by other members.</cmd>
 			</step>
 		</steps-unordered>
 	</taskbody>

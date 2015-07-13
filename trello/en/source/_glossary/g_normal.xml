@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE glossentry PUBLIC "-//OASIS//DTD DITA Glossary//EN" "glossary.dtd">
+<glossentry xml:lang="en-US" id="g_normal">
+	<glossterm>Normal user</glossterm>
+	<glossdef>Normal users can create, view and modify organization boards, but they cannot change board settings.</glossdef>
+</glossentry>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE glossentry PUBLIC "-//OASIS//DTD DITA Glossary//EN" "glossary.dtd">
+<glossentry xml:lang="en-US" id="g_admin">
+	<glossterm>Admin users</glossterm>
+	<glossdef><p>Admin users can create, view and modify boards, and change the organization settings.</p></glossdef>
+</glossentry>
