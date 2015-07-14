@@ -3,7 +3,7 @@
 <map xml:lang="en-US">
 	<title>Collaborating online in Trello</title>
 	<!-- sample DITA project -->
-	<!-- ditamap with topicrefs, maprefs, reltable, warehouse and conrefs, keys and keymaps (all local), but without filters -->
+	<!-- ditamap with topicrefs, maprefs, reltable, warehouse and conrefs, keys and keymaps (all local), glossary, but without filters -->
 	<topicmeta>
 		<author>@thinkDITA</author>
 		<publisher>PANTOPIX GmbH &amp; Co. KG</publisher>
@@ -22,7 +22,7 @@
 
 
 	<!-- ######## CONTENTS ######## -->
-	<!-- first two chapters do not use submaps, for test purposes -->
+	<!-- first two chapters do not use submaps, nor keys, for test purposes -->
 	<topicref href="source/c_ov_trello.xml" navtitle="Planning your projects with Trello" format="dita" type="concept">
 		<topicref href="source/t_keeping-to-do-lists.xml" navtitle="Keeping to-do lists" format="dita" type="task"/>
 		<topicref href="source/t_agile-boards.xml" navtitle="Agile boards" format="dita" type="task"/>
@@ -42,21 +42,22 @@
 	<!-- some topics use conrefs from the warehouse: -->
 	<mapref href="source/monitor/monitoring.ditamap" format="ditamap" type="map"/>
 
-	<!-- all topics use keys for product name, GUI elements, images, plus conkeyrefs to the warehouse: -->
+	<!-- all topics use keys for product name, GUI elements, images, glossary, plus conkeyrefs to the warehouse: -->
 	<mapref href="source/cards/card-content.ditamap" format="ditamap" type="map"/>
 	<mapref href="source/export/exporting.ditamap" format="ditamap" type="map"/>
 	<mapref href="source/handle/handling-items.ditamap" format="ditamap" type="map"/>
 	<topicref href="source/r_shortcuts-and-tips.xml" navtitle="Shortcuts and tips" format="dita" type="reference"/>
-	
-	
+
+
 	<!-- ######## GLOSSARY ######## -->
-	<topicref keyref="r_ov_glossary" format="dita" type="reference" chunk="to-content">
+	<topicref keyref="r_ov_glossary" format="dita" type="reference">
 		<topicref keyref="g_admin" type="glossentry" format="dita"/>
 		<topicref keyref="g_normal" type="glossentry" format="dita"/>
 		<topicref keyref="g_observer" type="glossentry" format="dita"/>
 		<topicref keyref="g_business" type="glossentry" format="dita"/>
 		<topicref keyref="g_enterprise" type="glossentry" format="dita"/>
 		<topicref keyref="g_gold" type="glossentry" format="dita"/>
+		<topicref keyref="g_taco" type="glossentry" format="dita"/>
 	</topicref>
 
 	<!-- ######## RELTABLE ######## -->

@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE glossentry PUBLIC "-//OASIS//DTD DITA Glossary//EN" "glossary.dtd">
 <glossentry xml:lang="en-US" id="g_observer">
-	<glossterm>Observer</glossterm>
-	<glossdef>Observers can view boards and the cards on them, they can vote and comment on cards, if enabled. Observers cannot modify or move cards, nor change the board settings.</glossdef>
+	<glossterm>Observers</glossterm>
+	<glossdef>Observers can view boards and the cards on them, they can vote and comment on cards, if enabled. Observers cannot modify or move
+		cards, nor change the board settings.</glossdef>
 </glossentry>

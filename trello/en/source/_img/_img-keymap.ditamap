@@ -88,6 +88,18 @@
 				<linktext>Archived card</linktext>
 			</topicmeta>
 		</keydef>
+		<keydef keys="crop_filter-cards" href="crop_filter-cards.png" format="png" navtitle="Filter Cards">
+			<topicmeta>
+				<navtitle>Filter Cards</navtitle>
+				<linktext>Filter Cards</linktext>
+			</topicmeta>
+		</keydef>
+		<keydef keys="crop_search-term" href="crop_search-term.png" format="png" navtitle="Search for term">
+			<topicmeta>
+				<navtitle>Search for term</navtitle>
+				<linktext>Search for term</linktext>
+			</topicmeta>
+		</keydef>
 	</topicgroup>
 
 	<topicgroup>
@@ -123,4 +135,12 @@
 			</topicmeta>
 		</keydef>
 	</topicgroup>
+
+	<keydef keys="logo_Space-Taco" href="logo_Space-Taco-150.jpg" format="jpg" navtitle="Taco astronaut">
+		<topicmeta>
+			<navtitle>Taco astronaut</navtitle>
+			<linktext>Taco astronaut</linktext>
+		</topicmeta>
+	</keydef>
+
 </map>

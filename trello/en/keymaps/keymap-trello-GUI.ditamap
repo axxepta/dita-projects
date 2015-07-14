@@ -20,6 +20,13 @@
 				</keywords>
 			</topicmeta>
 		</keydef>
+		<keydef keys="opt_save-search">
+			<topicmeta>
+				<keywords>
+					<keyword>Save this Search</keyword>
+				</keywords>
+			</topicmeta>
+		</keydef>
 	</topicgroup>
 
 	<topicgroup>
@@ -123,6 +130,27 @@
 			<topicmeta>
 				<keywords>
 					<keyword>Send to Board</keyword>
+				</keywords>
+			</topicmeta>
+		</keydef>
+		<keydef keys="mnu_filter">
+			<topicmeta>
+				<keywords>
+					<keyword>Filter Cards</keyword>
+				</keywords>
+			</topicmeta>
+		</keydef>
+		<keydef keys="mnu_filter-on">
+			<topicmeta>
+				<keywords>
+					<keyword>Filtering is on</keyword>
+				</keywords>
+			</topicmeta>
+		</keydef>
+		<keydef keys="mnu_filter-clear">
+			<topicmeta>
+				<keywords>
+					<keyword>Clear Filter</keyword>
 				</keywords>
 			</topicmeta>
 		</keydef>

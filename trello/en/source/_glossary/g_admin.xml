@@ -3,4 +3,8 @@
 <glossentry xml:lang="en-US" id="g_admin">
 	<glossterm>Admin users</glossterm>
 	<glossdef><p>Admin users can create, view and modify boards, and change the organization settings.</p></glossdef>
+	<glossBody>
+		<glossSurfaceForm>Admin users</glossSurfaceForm>
+		<glossAlt><glossAbbreviation>Admins</glossAbbreviation></glossAlt>
+	</glossBody>
 </glossentry>

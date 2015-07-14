@@ -1,10 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference xml:lang="en-US" id="r_shortcuts-and-tips">
-  <title>Shortcuts and tips</title>
-  <refbody>
-	<section>
-		<p></p>
-	</section>
-  </refbody>
+	<title>Shortcuts and tips</title>
+	<shortdesc>Press ? on your keyboard to access the shortcuts list in <keyword keyref="prod"/>.</shortdesc>
+	<refbody>
+		<section>
+			<p>Examples of shortcuts:</p>
+			<ul>
+				<li>b - open Boards menu</li>
+				<li>c - archive card</li>
+				<li>d - open due date picker</li>
+				<li>e - quick edit card</li>
+				<li>f - filter cards</li>
+				<li>l+&lt;number> - set label</li>
+				<li>m - assign members</li>
+				<li>n - create new card</li>
+				<li>q - cards assigned to me</li>
+				<li>s - subscribe to card</li>
+				<li>Space - assign self</li>
+				<li>t - edit card title</li>
+				<li>v - vote</li>
+				<li>w - board sidebar</li>
+				<li>x - clear all filters</li>
+				<li>? - shortcuts list</li>
+				<li>@ - autocomplete usernames</li>
+				<li># - autocomplete labels</li>
+				<li>^ - autocomplete new card position</li>
+				<li>&lt; &gt; - move card to other list, left or right</li>
+			</ul>
+			<p>The shortcuts list online: <xref keyref="web_shortcuts" format="html" scope="external"/>.</p>
+		</section>
+		<section>
+			<p>More tips:</p>
+			<ul>
+				<li>Double-click anywhere on the board, to add a list.</li>
+				<li>Click and hold on the board background, to drag the board horizontally.</li>
+				<li>Mark boards as favorites (with a star) and drag them to re-order.</li>
+				<li>Submit multiple cards to a list, from spreadsheets or text lines.</li>
+				<li>Drag &amp; drop attachments to cards.</li>
+				<li>Submit multiple checklist items to a checklist, from spreadsheets or text lines.</li>
+			</ul>
+			<p><abbreviated-form keyref="g_taco"/> will also point you to new features and tips.</p>
+		</section>
+	</refbody>
 </reference>

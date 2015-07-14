@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task xml:lang="en-US" id="t_search">
+	<title>Searching cards across boards</title>
+	<prolog>
+		<metadata>
+			<keywords>
+				<indexterm>search</indexterm>
+				<indexterm>advanced search</indexterm>
+				<indexterm>find</indexterm>
+				<indexterm>filter</indexterm>
+			</keywords>
+		</metadata>
+	</prolog>
+	<taskbody>
+		<prereq>Only <keyword keyref="prod_web"/> supports searching across boards. The <keyword keyref="prod"/> mobile apps currently search
+			on the active window. </prereq>
+		<context>
+			<p>Use the search field on the <keyword keyref="prod"/> menu bar to search for items across all boards.</p>
+		</context>
+		<steps>
+			<step>
+				<cmd>Type the search terms in the search field.</cmd>
+				<stepresult><p>The search results are listed in a separate window, grouped by cards, boards and organizations.</p>
+					<image keyref="crop_search-term" placement="break" width="300px"/></stepresult>
+			</step>
+			<step>
+				<cmd>Click the item you were looking for, or refine your search if needed. Advanced search operators:</cmd>
+				<choices>
+					<choice><userinput>@username</userinput> or <userinput>member:&lt;username&gt;</userinput> - cards assigned to
+						a member.</choice>
+					<choice><userinput>#label-tag</userinput> or <userinput>label:&lt;label-tag&gt;</userinput> - cards with a
+						certain label.</choice>
+					<choice><userinput>board:&lt;text-or-id&gt;</userinput> - cards on a certain board.</choice>
+					<choice><userinput>due:day</userinput>, <userinput>due:week</userinput>, <userinput>due:month</userinput>,
+							<userinput>due:&lt;number&lt;</userinput> and <userinput>due:overdue</userinput> - cards due
+						in a certain period.</choice>
+					<choice><userinput>created:day</userinput>, <userinput>created:week</userinput>,
+							<userinput>created:month</userinput>, <userinput>created:&lt;number&gt;</userinput> - cards
+						created in a certain period.</choice>
+					<choice><userinput>edited:day</userinput>, <userinput>edited:week</userinput>,
+							<userinput>edited:month</userinput>, <userinput>edited:&lt;number&gt;</userinput> - cards
+						edited in a certain period.</choice>
+					<choice><userinput>description:&lt;term&gt;</userinput>, <userinput>checklist:&lt;term&gt;</userinput>,
+							<userinput>comment:&lt;term&gt;</userinput>, and
+						<userinput>name:&lt;term&gt;</userinput></choice>
+					<choice><userinput>is:open</userinput> or <userinput>is:archived</userinput> - open or archived cards (by
+						default, both are shown).</choice>
+					<choice><userinput>is:starred</userinput> - only cards on starred (favorite) boards.</choice>
+					<choice><userinput>has:attachments</userinput> - cards with attachments. Similarly for: description, cover,
+						members, stickers.</choice>
+				</choices>
+			</step>
+			<step>
+				<cmd>If you need to repeat the same search query, you can use the option <uicontrol keyref="opt_save-search"/>.</cmd>
+			</step>
+		</steps>
+	</taskbody>
+</task>

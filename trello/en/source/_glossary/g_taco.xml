@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE glossentry PUBLIC "-//OASIS//DTD DITA Glossary//EN" "glossary.dtd">
+<glossentry xml:lang="en-US" id="g_taco">
+	<glossterm>Taco</glossterm>
+	<glossdef><p>Taco is the <keyword keyref="prod"/> mascot, a siberian husky.</p>
+		<image keyref="logo_Space-Taco" width="150px" placement="break">
+			<alt>[PHOTO: Taco Astronaut]</alt>
+		</image>
+		<p>He'll pop-up on the board menu and present you the new features.</p></glossdef>
+<!--	<glossBody>
+		<glossSurfaceForm>Taco</glossSurfaceForm>
+		<glossAlt>
+			<glossAbbreviation>Taco</glossAbbreviation>
+		</glossAlt>
+	</glossBody>-->
+</glossentry>

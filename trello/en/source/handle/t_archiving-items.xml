@@ -55,10 +55,10 @@
 						immediately, click <uicontrol keyref="opt_delete"/>. If you leave it in the archive, you can restore
 						it any time.</choice>
 					<choice><p>To restore a card from the archive, open the board archive from <menucascade>
-							<uicontrol keyref="mnu_show-menu"/>
-							<uicontrol keyref="mnu_menu"/>
-							<uicontrol keyref="mnu_board-archive"/>
-						</menucascade> and click <uicontrol keyref="opt_archive-restore"/> (1).</p><image
+								<uicontrol keyref="mnu_show-menu"/>
+								<uicontrol keyref="mnu_menu"/>
+								<uicontrol keyref="mnu_board-archive"/>
+							</menucascade> and click <uicontrol keyref="opt_archive-restore"/> (1).</p><image
 							keyref="crop_archived-card" placement="break" width="300px" id="image_hjx_f3l_qs"/></choice>
 					<choice>To delete an archived card, open the board archive from <menucascade>
 							<uicontrol keyref="mnu_show-menu"/>
@@ -71,15 +71,18 @@
 				<cmd>Checklists: </cmd>
 				<info><note>If you delete checklists, they are no longer available in the list when creating new ones.</note></info>
 				<choices id="choices_ctd_53l_qs">
-					<choice>To remove an item from a checklist, click the item and click <uicontrol keyref="opt_delete"/>.</choice>
-					<choice>To remove a checklist from a card, click <uicontrol keyref="opt_delete"/> next to it on the card.</choice>
+					<choice>To remove an item from a checklist, click the item and click <uicontrol keyref="opt_delete"
+						/>.</choice>
+					<choice>To remove a checklist from a card, click <uicontrol keyref="opt_delete"/> next to it on the
+						card.</choice>
 				</choices>
 			</step>
 			<step>
 				<cmd>Attachments: To delete an attachment, click <uicontrol keyref="opt_remove"/>.</cmd>
 			</step>
 			<step>
-				<cmd>Comments: To delete a comment you made on a board, click <uicontrol keyref="opt_delete"/>. <abbreviated-form keyref="g_admin"/> can delete comments made by other members.</cmd>
+				<cmd>Comments: To delete a comment you made on a board, click <uicontrol keyref="opt_delete"/>. <abbreviated-form
+						keyref="g_admin"/> can delete comments made by other members.</cmd>
 			</step>
 		</steps-unordered>
 	</taskbody>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task xml:lang="en-US" id="t_filter">
+	<title>Filtering cards on a board</title>
+	<prolog>
+		<metadata>
+			<keywords>
+				<indexterm>filter</indexterm>
+				<indexterm>filtering</indexterm>
+				<indexterm>search</indexterm>
+				<indexterm>find</indexterm>
+			</keywords>
+		</metadata>
+	</prolog>
+	<taskbody>
+		<context>
+			<p>At board level, you can use card filtering to display cards with specific labels, members, due dates and keywords. Filtering even works if you
+				are not a member.</p>
+		</context>
+		<steps>
+			<step>
+				<cmd>Go to <menucascade>
+						<uicontrol keyref="mnu_show-menu"/>
+						<uicontrol keyref="mnu_menu"/>
+						<uicontrol keyref="mnu_filter"/>
+					</menucascade>.</cmd>
+				<info>
+					<image keyref="crop_filter-cards" placement="break" width="150px"/>
+				</info>
+				<choices>
+					<choice>Type the words you are searching for, separated by commas, in the search field.</choice>
+					<choice>Select the labels</choice>
+					<choice>Select the members</choice>
+					<choice>Select the due terms</choice>
+				</choices>
+				<stepresult>The board will show only the cards that correspond to the search criteria. The board menu displays the
+					active filtering link (<uicontrol keyref="mnu_filter-on"/>).</stepresult>
+			</step>
+			<step>
+				<cmd>To change the filters, click <uicontrol keyref="mnu_filter-on"/> and click the criteria again, to activate/ deactivate them.</cmd>
+			</step>
+			<step>
+				<cmd>To remove the filtering, click <uicontrol keyref="mnu_filter-clear"/> (X).</cmd>
+			</step>
+		</steps>
+	</taskbody>
+</task>

@@ -29,7 +29,7 @@
 			</step>
 			<step>
 				<cmd>If you want to delete a card, click <uicontrol keyref="opt_archive"/>.</cmd>
-				<info>Items are not deleted, only archived in <keyword keyref="prod"/>.</info>
+				<info>After you archive a card, you can delete or restore it.</info>
 			</step>
 			<step>
 				<cmd>To close the card, click the close (X) button.</cmd>

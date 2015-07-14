@@ -2,18 +2,50 @@
 <!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
 <map>
 	<title>keymap: Trello product variables</title>
-	<topicgroup><topicmeta><navtitle>Product</navtitle></topicmeta>
+	<topicgroup>
+		<topicmeta>
+			<navtitle>Product</navtitle>
+		</topicmeta>
 		<keydef keys="prod">
-			<topicmeta><keywords><keyword>Trello</keyword></keywords></topicmeta>
+			<topicmeta>
+				<keywords>
+					<keyword>Trello</keyword>
+				</keywords>
+			</topicmeta>
+		</keydef>
+		<keydef keys="prod_web">
+			<topicmeta>
+				<keywords>
+					<keyword>Trello for Web</keyword>
+				</keywords>
+			</topicmeta>
 		</keydef>
 	</topicgroup>
-	<topicgroup><topicmeta><navtitle>Company</navtitle></topicmeta>
-		
+	<topicgroup>
+		<topicmeta>
+			<navtitle>Company</navtitle>
+		</topicmeta>
+		<keydef keys="company">
+			<topicmeta>
+				<keywords>
+					<keyword>Trello, Inc.</keyword>
+				</keywords>
+			</topicmeta>
+		</keydef>
+
 	</topicgroup>
-	<topicgroup><topicmeta><navtitle>Email addresses</navtitle></topicmeta>
-		
+	<topicgroup>
+		<topicmeta>
+			<navtitle>Email addresses</navtitle>
+		</topicmeta>
+		<keydef keys="email_sales" href="mailto:sales@trello.com" navtitle="Sales team" format="email" scope="external"/>
 	</topicgroup>
-	<topicgroup><topicmeta><navtitle>Web addresses</navtitle></topicmeta>
-		
+	<topicgroup>
+		<topicmeta>
+			<navtitle>Web addresses</navtitle>
+		</topicmeta>
+		<keydef keys="web_trello" href="http://www.trello.com" navtitle="Trello Website" format="html" scope="external"/>
+		<keydef keys="web_help" href="http://help.trello.com" navtitle="Trello Help" format="html" scope="external"/>
+		<keydef keys="web_shortcuts" href="https://trello.com/shortcuts" navtitle="Trello shortcuts" format="html" scope="external"/>
 	</topicgroup>
 </map>

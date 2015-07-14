@@ -12,11 +12,11 @@
 			<copyrholder>PANTOPIX GmbH &amp; Co. KG</copyrholder>
 		</copyright>
 	</topicmeta>
-	
-	
+
+
 	<!-- ######## RESOURCES ######## -->
 	<topicref href="source/_warehouse/r_warehouse.xml" format="dita" type="reference" processing-role="resource-only"/>
-	
+
 
 	<!-- ######## CONTENTS ######## -->
 	<!-- first two chapters do not use submaps, for test purposes -->
@@ -37,7 +37,7 @@
 	<mapref href="source/collab/collaborate.ditamap" format="ditamap" type="map"/>
 	<!-- some topics use conrefs from the warehouse: -->
 	<mapref href="source/monitor/monitoring.ditamap" format="ditamap" type="map"/>
-	
+
 
 	<!-- ######## RELTABLE ######## -->
 	<reltable>
@@ -78,8 +78,12 @@
 			</relcell>
 		</relrow>
 		<relrow>
-			<relcell><topicref href="source/collab/t_setting-due-dates.xml" navtitle="Setting due dates" format="dita" type="task"/></relcell>
-			<relcell><topicref href="source/monitor/t_creating-a-calendar.xml" navtitle="Creating a calendar" format="dita" type="task"/></relcell>
+			<relcell>
+				<topicref href="source/collab/t_setting-due-dates.xml" navtitle="Setting due dates" format="dita" type="task"/>
+			</relcell>
+			<relcell>
+				<topicref href="source/monitor/t_creating-a-calendar.xml" navtitle="Creating a calendar" format="dita" type="task"/>
+			</relcell>
 		</relrow>
 	</reltable>
 </map>

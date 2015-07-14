@@ -3,11 +3,12 @@
 <map>
 	<title>Keymap: Glossary</title>
 	<topicref href="r_ov_glossary.xml" keys="r_ov_glossary" type="reference" format="dita">
-		<glossref href="g_admin.xml" keys="g_admin" type="glossentry" format="dita"/>
-		<glossref href="g_normal.xml" keys="g_normal" type="glossentry" format="dita"/>
-		<glossref href="g_observer.xml" keys="g_observer" type="glossentry" format="dita"/>
-		<glossref href="g_business.xml" keys="g_business" type="glossentry" format="dita"/>
-		<glossref href="g_enterprise.xml" keys="g_enterprise" type="glossentry" format="dita"/>
-		<glossref href="g_gold.xml" keys="g_gold" type="glossentry" format="dita"/>
+		<topicref href="g_admin.xml" keys="g_admin" type="glossentry" format="dita"/>
+		<topicref href="g_normal.xml" keys="g_normal" type="glossentry" format="dita"/>
+		<topicref href="g_observer.xml" keys="g_observer" type="glossentry" format="dita"/>
+		<topicref href="g_business.xml" keys="g_business" type="glossentry" format="dita"/>
+		<topicref href="g_enterprise.xml" keys="g_enterprise" type="glossentry" format="dita"/>
+		<topicref href="g_gold.xml" keys="g_gold" type="glossentry" format="dita"/>
+		<topicref href="g_taco.xml" keys="g_taco" type="glossentry" format="dita"/>
 	</topicref>
 </map>

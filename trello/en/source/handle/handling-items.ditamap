@@ -5,6 +5,10 @@
 	<topicref keys="t_ov_handling-items" href="t_ov_handling-items.xml" navtitle="Changing items" format="dita" type="task">
 		<topicref keys="t_moving-items" href="t_moving-items.xml" navtitle="Moving items" format="dita" type="task"/>
 		<topicref keys="t_copying-items" href="t_copying-items.xml" navtitle="Copying items" format="dita" type="task"/>
+		
+		<!-- indexterms and glossary keys -->
 		<topicref keys="t_archiving-items" href="t_archiving-items.xml" navtitle="Archiving items" format="dita" type="task"/>
+		<topicref keys="t_filter" href="t_filter.xml" navtitle="Filtering" format="dita" type="task"/>
+		<topicref keys="t_search" href="t_search.xml" navtitle="Searching" format="dita" type="task"/>
 	</topicref>
 </map>

@@ -58,9 +58,15 @@
    <appContext helpID="t_moving-items" path="source/handle/t_moving-items.html"/>
    <appContext helpID="t_copying-items" path="source/handle/t_copying-items.html"/>
    <appContext helpID="t_archiving-items" path="source/handle/t_archiving-items.html"/>
+   <appContext helpID="t_filter" path="source/handle/t_filter.html"/>
+   <appContext helpID="t_search" path="source/handle/t_search.html"/>
    <appContext helpID="r_shortcuts-and-tips" path="source/r_shortcuts-and-tips.html"/>
-   <appContext helpID="r_ov_glossary" path="Chunk1403365367.html#r_ov_glossary"/>
-   <appContext helpID="g_gold" path="Chunk1403365367.html#g_gold"/>
-   <appContext helpID="g_business" path="Chunk1403365367.html#g_business"/>
-   <appContext helpID="g_enterprise" path="Chunk1403365367.html#g_enterprise"/>
+   <appContext helpID="r_ov_glossary" path="source/_glossary/r_ov_glossary.html"/>
+   <appContext helpID="g_admin" path="source/_glossary/g_admin.html"/>
+   <appContext helpID="g_normal" path="source/_glossary/g_normal.html"/>
+   <appContext helpID="g_observer" path="source/_glossary/g_observer.html"/>
+   <appContext helpID="g_business" path="source/_glossary/g_business.html"/>
+   <appContext helpID="g_enterprise" path="source/_glossary/g_enterprise.html"/>
+   <appContext helpID="g_gold" path="source/_glossary/g_gold.html"/>
+   <appContext helpID="g_taco" path="source/_glossary/g_taco.html"/>
 </map>

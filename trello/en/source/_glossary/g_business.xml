@@ -18,5 +18,11 @@
 			<li>CSV exports for individual boards</li>
 			<li>Billing information &amp; Invoices</li>
 		</ul>
-	</glossdef><glossBody><glossAlt><glossAbbreviation>Business</glossAbbreviation></glossAlt></glossBody>
+		<p>Costs: $3.75 per user / month, when paid annually.</p>
+	</glossdef>
+	<glossBody>
+		<glossAlt>
+			<glossAbbreviation>Business</glossAbbreviation>
+		</glossAlt>
+	</glossBody>
 </glossentry>
