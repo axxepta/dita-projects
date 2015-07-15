@@ -1,6 +1,10 @@
 # dita-projects
 Sample DITA project, *Trello Guide*, with multiple maps, from simple to complex structure and architecture.
 
+Open _trello.xpr_ in oXygen Editor.
+
+To publish output, open a _ditamap_ in the DITA Map Manager and use the associated publishing scenarios (PDF and WebHelp) already set at project level.
+
 Main ditamaps:  
 * _trello-simple.ditamap_: contains only basic metadata and topicrefs. No subfolders, reuse, keys, filters, etc.  
 * _trello-simple-reltable.ditamap_: adds a two-column reltable   
