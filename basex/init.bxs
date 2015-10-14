@@ -1,0 +1,41 @@
+<commands>
+  
+  <alter-password name='admin'>admin</alter-password>
+  
+  <create-user name='admin2'>admin2</create-user>
+  <grant name='admin2' permission='admin'/>
+
+  
+  <!-- set to true for production mode 
+  <set option="CACHERESTXQ">false</set> -->
+  
+  <!-- faster, not DTD support needed -->
+  <set option="INTPARSE">true</set>
+  
+  <!-- keep namespaces -->
+  <set option="STRIPNS">false</set>
+ 
+  <!-- keep text nodes (do not trim) -->
+  <set option="CHOP">false</set>
+  
+  <!-- index settings -->
+  <set option="FTINDEX">false</set>
+  <set option="UPDINDEX">true</set>
+  
+  
+  <set option="CREATEFILTER">*.xml,*.ditamap,*.ditaval</set>
+
+  <drop-db name="~argon"></drop-db>
+  <drop-db name="trello"></drop-db>
+  <create-db name="trello">../trello/en/</create-db>
+  
+  <!-- <store>../</store> -->
+  
+
+  <!-- add fulltext dbs 
+  <set option="UPDINDEX">false</set>
+  <set option="FTINDEX">true</set>
+  
+  -->
+  
+</commands>

@@ -18,7 +18,8 @@
 	<mapref href="keymaps/keymap-trello-vars.ditamap" format="ditamap" type="map" processing-role="resource-only"/>
 	<mapref href="keymaps/keymap-trello-GUI.ditamap" format="ditamap" type="map" processing-role="resource-only"/>
 	<mapref href="source/_img/_img-keymap.ditamap" format="ditamap" type="map" processing-role="resource-only"/>
-
+  <mapref href="source/_glossary/glossmap.ditamap" format="ditamap" type="map" processing-role="resource-only"/>
+  
 
 	<!-- ######## CONTENTS ######## -->
 	<!-- first two chapters do not use submaps, for test purposes -->
