@@ -2723,6 +2723,7 @@
         </options>
     </meta>
     <projectTree name="trello.xpr">
+        <folder path="../basex/"/>
         <folder path="en/"/>
         <file name="../README.md"/>
     </projectTree>

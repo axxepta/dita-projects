@@ -9,8 +9,10 @@
   <!-- set to true for production mode 
   <set option="CACHERESTXQ">false</set> -->
   
-  <!-- faster, not DTD support needed -->
-  <set option="INTPARSE">true</set>
+  <!-- DTD support needed -->
+  <set option="INTPARSE">false</set>
+  <!-- do not try to resolve -->
+  <set option="DTD">false</set>
   
   <!-- keep namespaces -->
   <set option="STRIPNS">false</set>
