@@ -14,7 +14,7 @@
     <compileSource>1.8</compileSource>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-    <baseXVersion>8.3</baseXVersion>
+    <baseXVersion>8.3.1-SNAPSHOT</baseXVersion>
     <saxonVersion>9.6.0-6</saxonVersion>
   </properties>
 

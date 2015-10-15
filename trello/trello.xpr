@@ -194,7 +194,7 @@
                     </entry>
                     <entry>
                         <String>keys.context</String>
-                        <String>${pdu}/en/trello-glosskeys.ditamap</String>
+                        <String>${pdu}/en/trello.ditamap</String>
                     </entry>
                     <entry>
                         <String>profiling.colors.option.pane</String>
