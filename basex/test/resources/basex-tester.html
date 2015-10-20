@@ -1,0 +1,69 @@
+<!DOCTYPE html SYSTEM "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <title>BaseX Web Console</title>
+    <link rel="stylesheet" type="text/css" href="./styles.css"/>
+    <base href="http://localhost:8984" target="_results"/>
+  </head>
+  <body>
+    <h1>BaseX Web Console</h1>
+    <p>Very simple access to BaseX REST API functions.</p>
+    <table>
+      <col
+        width="50%" />
+      <col
+        width="50%" />
+      <thead>
+        <tr>
+          <th>Action</th>
+          <th>Link</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>List databases</td>
+          <td><a target="results"
+            href="/rest?command=list">/rest?command=list</a></td>
+        </tr>
+        <tr>
+          <td>List settings</td>
+          <td><a target="results"
+            href="/rest?command=get" >/rest?command=get</a></td>
+        </tr>
+        <tr>
+          <td>List modules</td>
+          <td><a target="results"
+            href="/rest?command=repo%20list" >/rest?command=repo list</a></td>
+        </tr>
+        <tr>
+          <td>DFST LinkManagment Application</td>
+          <td><a target="results"
+            href="/" >Link Management Application ("/")</a></td>
+        </tr>
+        <tr>
+          <td>RESTXQ Basex Sample</td>
+          <td><a target="results"
+            href="/basextest" >Main RESTXQ Page (/basextest)</a></td>
+        </tr>
+        <tr>
+          <td>List files in database dfst_dfst-sample-project_develop</td>
+          <td> <a target="results"
+            href="/rest/dfst_dfst-sample-project_develop?query=&lt;html>   &lt;head>     &lt;title>Files in dfst-sample-project [develop]&lt;/title>&lt;base target=&quot;preview&quot;/>   &lt;/head>   &lt;body> &lt;h1>Files in dfst-sample-project [develop]&lt;/h1> &lt;ol>{for $doc in collection() return &lt;li>&lt;a     href=&quot;{document-uri($doc)}&quot; >{document-uri($doc)}&lt;/a>&lt;/li>}&lt;/ol> &lt;/body> &lt;/html>&method=html">for docs in collection return doc</a> </td>
+        </tr>
+        <tr>
+          <td>RESTXQ Hello World</td>
+          <td><a href="/hello/World">/hello/World</a></td>
+        </tr>
+        <tr>
+          <td>List Key Spaces</td>
+          <td>Link TBD</td>
+        </tr>
+        <tr>
+          <td>List Document Dependencies</td>
+          <td>Link TBD</td>
+        </tr>
+      </tbody>
+    </table>
+    
+  </body>
+</html>
