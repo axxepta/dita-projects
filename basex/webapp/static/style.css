@@ -1,0 +1,239 @@
+body {
+  font-family: Calibri, "Trebuchet MS", sans-serif;
+  overflow-y: scroll;
+  margin: 1em;
+  font-size: 16px;
+}
+
+ul, dd {
+  padding-left: 1.2em;
+  margin-left: 0;
+}
+
+dl {
+  margin: 0;
+}
+
+dt {
+  margin: 0.6em 0 0.6em 0;
+  font-weight: bold;
+}
+
+.nested-table {
+  font-size: 100%;
+  padding: 0;
+  table-layout: fixed;
+  border-top: none 0.1pt white ;
+  border-bottom: none 0.1pt white;
+}
+
+.nested-table td {
+  border-top:  none 1pt black;
+  border-bottom: none 0.1pt white;
+  padding: 1pt;
+}
+
+.nested-table tr:first-child td {
+  border-top: none 0.1pt white ;
+  border-bottom: none 1pt black;
+  
+}
+
+.nested-table tr td:first-child:after {
+  content: ":";
+}
+
+.nested-table tr td:first-child {
+   text-align: right;
+   font-style: italic;
+}
+
+
+
+table {
+  font-size: 100%;
+  padding: 0;
+  border-top: solid 1pt blue;
+  border-bottom: solid 1pt blue;
+  table-layout: fixed;
+}
+
+table.listtable {
+  width: auto;
+}
+
+th {
+  padding: 0 1.2em .2em 0;
+  text-align: left;
+}
+
+tr {
+}
+
+td {
+  padding: 0 1.2em 0 0;
+  vertical-align: top;
+  border-top: solid 1pt black;
+}
+
+textarea {
+  font-family: "Consolas", "Ubuntu Mono", monospace;
+  font-size: 90%;
+  margin: 4px 0px 4px 0px;
+  width: 100%;
+}
+
+select {
+  width: 166;
+}
+
+code {
+  font-family: "Consolas", "Ubuntu Mono", monospace;
+  border: 1px solid #E3E3FF;
+  border-radius: 3px;
+  padding: 0 4px 0 4px;
+  margin: 0 2px 0 2px;
+  font-size: 90%;
+}
+
+pre {
+  font-family: "Consolas", "Ubuntu Mono", monospace;
+  font-size: 90%;
+}
+
+h1 {
+  font-size: 220%;
+  font-weight: bold;
+  color: blue;
+  margin: -2px 0 0 0;
+}
+
+h2 {
+  font-size: 150%;
+  color: blue;
+  margin: 0 0 0.2em 0;
+}
+
+h3 {
+  font-size: 120%;
+  color: blue;
+  margin: 0.2em 0 0.2em 0;
+}
+
+h4 {
+  font-size: 100%;
+  margin: 0 0 0.4em 0;
+}
+
+hr {
+  height: 1px;
+  border: 0px;
+  background-color: #777;
+}
+
+a {
+  color: #CC3333;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration:underline;
+}
+
+p {
+  margin: 0 0 0.6em 0;
+}
+
+.listblock {
+   display: block;
+   height: 300px;
+   width: 100%;
+   margin-top: 12pt;
+   overflow: scroll;
+}
+
+.listblock-full {
+   display: block;
+   height: 600px;
+   width: 100%;
+   margin-top: 12pt;
+   overflow: scroll;
+}
+
+.sourceblock {
+   display: block;
+   width: 100%;
+   overflow: scroll;
+}
+
+.right {
+  float: right;
+  padding: 5px;
+}
+
+.error {
+  color: #FF3333;
+  font-weight: bold;
+}
+
+.info {
+  color: #009900;
+  font-weight: bold;
+}
+
+.warning {
+  color: #999999;
+  font-weight: bold;
+}
+
+.note {
+  color: #666666;
+}
+
+.small {
+  height: 10px;
+}
+
+.variable {
+  font-family: "Calibri", "Trebuchet MS", sans-serif;
+}
+
+.vertical {
+  width: 1px;
+  border-left: 1px solid #000000;
+  height: 100%;
+}
+
+.title-block {
+  border: solid blue 1pt;
+  padding-bottom: 20px;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-bottom: 20px;
+}
+
+.docdetails {
+   font-size: 8pt;
+   color: grey;
+   
+}
+
+.isRootMap {
+  text-align: center;
+  color: green;
+}
+
+.label {
+  font-weight: bold;
+  color: lightblue;
+}
+
+.serialized {
+  font-family: 'Courier New', monospace;
+  font-size: 9pt;
+}
+
+.tag {
+  color: blue;
+}

@@ -25,12 +25,17 @@
   <set option="UPDINDEX">true</set>
   
   
-  <set option="CREATEFILTER">*.xml,*.ditamap,*.ditaval</set>
+  <set option="CREATEFILTER">*.xml,*.dita*</set>
 
   <drop-db name="~argon"></drop-db>
   <drop-db name="trello"></drop-db>
   <create-db name="trello">../trello/en/</create-db>
   
+  <xquery>file:list("../trello/en/source/_img/") ! db:store("trello", "source/_img/" || ., file:read-binary("../trello/en/source/_img/" || .))</xquery>
+  <!--
+  <store path="source/_img/">../trello/en/source/_img/logo_Space-Taco-150.jpg</store>
+  <store path="source/_img/">../trello/en/source/_img/crop_add-attachment.png</store>
+  -->
   <!-- <store>../</store> -->
   
 

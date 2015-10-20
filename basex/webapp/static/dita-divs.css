@@ -1,0 +1,349 @@
+/* CSS to style HTML divs using DITA @class value in the HTML @class attribute*/
+
+body {
+  font-family: Verdana,sans-serif;
+}
+
+/*
+ * Default styling
+ */
+ 
+*[class~="topic/data"] {
+  display: none;
+}
+
+.attribute {
+  display: none;
+}
+
+*[class~="topic/indexterm"] {
+  display: none;
+}
+
+*[class~="topic/term"] {
+  display: inline;
+  font-style: italic;
+}
+
+*[class~="topic/keyword"] {
+  display: inline;
+  font-weight: bold;
+}
+
+span[data-attname="keyref"],
+span[data-attname="conkeyref"] 
+{
+  display: inline !important;
+  font-style: italic;
+  color: green;
+}
+
+*[class~="topic/term"]  span[data-attname="keyref"]::before {
+  display: inline;
+  font-style: italic;
+  content: '[keyref: '
+}
+
+*[class~="topic/term"]  span[data-attname="keyref"]::after {
+  display: inline;
+  font-style: italic;
+  content: ']'
+}
+
+*[class~="topic/term"] span[data-attname="conkeyref"]:before {
+  display: inline;
+  font-style: italic;
+  content: '[conkeyref: '
+}
+
+*[class~="topic/term"] span[data-attname="conkeyref"]:after {
+  display: inline;
+  font-style: italic;
+  content: ']'
+}
+
+*[class~="topic/xref"] {
+  display: inline;
+  color: blue;
+  /* How to make this a link via CSS? Is that possible?*/
+  
+}
+
+*[class~="topic/relatedlinks"] {
+  display: inline;
+}
+
+
+*[class~="topic/link"] {
+  display: inline;
+  color: blue;
+  content: '[link]';
+  /* How to make this a link via CSS? Is that possible?*/
+  
+}
+
+*[class~="topic/dl"] {
+  display: block;
+}
+
+*[class~="topic/dlentry"] {
+  display: block;
+  margin-top: 12pt;
+  text-indent: 0pt;
+}
+
+*[class~="topic/dt"] {
+    display: block;
+    margin-left: 12pt;
+    float: left;
+    clear: left;
+    width: 10em;
+    text-align: left;
+    font-weight: bold;
+    color: green;  
+}
+
+*[class~="topic/dd"]{
+    display: block;
+    margin: 0 0 0 15em;
+    padding: 0 0 0.5em 0;
+ }
+
+*[class~="topic/dd"] *[class~="topic/p"]:first-child {
+  display: inline;
+}
+
+/*
+ * Titles
+ */
+
+*[class~="topic/title"] {
+  display: block;
+  font-weight: bold;
+  margin-top: 12pt;
+  margin-bottom: 12pt;
+}
+
+
+*[class~="topic/topic"] > *[class~="topic/title"] {
+  display: block;
+  margin-top: 12pt;
+  margin-bottom: 24pt;
+  font-weight: bold;
+  font-size: 18pt;
+  color: blue;
+  text-align: center;
+}
+
+*[class~="topic/topic"] > 
+  *[class~="topic/topic"] > 
+    *[class~="topic/title"] {
+  display: block;
+  margin-top: 12pt;
+  margin-bottom: 24pt;
+  font-weight: bold;
+  font-size: 14pt;
+  color: blue;
+  border-top: 1pt blue solid;
+  text-align: left;
+}
+
+*[class~="topic/topic"] > 
+  *[class~="topic/topic"] > 
+    *[class~="topic/topic"] > 
+      *[class~="topic/title"] {
+  display: block;
+  margin-top: 12pt;
+  margin-bottom: 24pt;
+  font-weight: bold;
+  font-size: 12pt;
+  color: green;
+}
+
+*[class~="d4p_simplenum-d/d4pSimpleEnumerator"]{
+  display: inline !important;
+}
+
+*[class~="topic/p"], *[class~="topic/shortdesc"] {
+  display: block;
+  margin-top: 6pt;
+  margin-left: 12pt;
+}
+
+*[class~="topic/author"]:before {
+   content: 'Author: ';
+}
+
+*[class~="topic/note"]:before {
+   content: 'Note: ';
+   font-weight: bold;
+   display: inline;
+}
+
+*[class~="topic/note"] {
+  display: block;
+  margin-top: 6pt;
+  text-indent: 12pt;
+  border: solid 1pt blue
+  
+}
+
+/* ====
+   Ruby
+   ==== */
+*[class~="d4p-ruby-d/ruby"] {
+  display: ruby !important;
+}
+
+*[class~="d4p-ruby-d/rt"] {
+  display: ruby-text !important;
+  font-size: 50%;
+}
+
+*[class~="d4p-ruby-d/rb"] {
+  display: ruby-base !important;
+  font-size: 50%;
+}
+*[class~="d4p-ruby-d/rp"] {
+  display: none !important;
+}
+
+   
+/* ===================
+   Highlight domain
+   =================== */
+
+*[class~="hi-d/i"] {
+  font-style: italic;
+}
+   
+*[class~="hi-d/b"] {
+  font-weight: bold;
+}
+   
+*[class~="hi-d/u"] {
+  text-decoration: underline;
+}
+   
+*[class~="hi-d/tt"] {
+  font-family: courier, monospace;
+}
+
+/* ===================
+   software domain
+   =================== */
+
+*[class~="sw-d/filepath"] {
+  display: inline;
+  font-family: courier, monospace;
+}
+
+*[class~="sw-d/varname"] {
+  display: inline;
+  font-style: italic;
+}
+
+
+*[class~="sw-d/cmdname"] {
+  display: inline;
+  font-family: courier, fixed, monospace;
+}
+
+*[class~="sw-d/userinput"] {
+  display: inline;
+  font-family: courier, fixed, monospace;
+  color: green;
+}
+
+/* ===================
+   programming domain
+   =================== */
+
+*[class~="pr-d/synph"] {
+  display: block;
+  margin-top: 12pt; 
+  text-indent: 12pt;
+  font-family: courier, fixed, monospace;
+}
+
+*[class~="pr-d/kwd"] {
+  display: inline;  
+  font-weight: bold;
+}
+
+*[class~="pr-d/kwd"] {
+  display: inline;  
+  font-weight: bold;
+}
+
+*[class~="pr-d/var"] {
+  display: inline;  
+  font-style: italic;
+}
+
+/* ===================
+   user interface domain
+   =================== */
+   
+*[class~="ui-d/uicontrol"] {
+  display: inline;
+  font-weight: bold;
+}
+
+
+/* ========
+   Lists
+   ======== */
+   
+*[class~="topic/ol"] {
+  list-style: decimal outside none;
+}
+
+*[class~="topic/li"] > *[class~="topic/p"]:first-child {
+  display: inline;
+  text-indent: 0pt;
+}
+
+*[class~="topic/ol"] > *[class~="topic/li"]{
+  display: list-item;
+  margin-top: 12pt;
+  text-indent: 0pt;
+  list-style-position: outside;
+  list-style-type: decimal;
+  color: blue;
+}
+
+*[class~="topic/ul"] > *[class~="topic/li"]{
+  display: list-item;
+  text-indent: 0pt;
+  list-style-position: outside;
+  color: green;
+}
+
+*[class~="task/stepsection"] {
+  display: block;
+  color: black !important;
+}
+
+/* ========
+   Tables
+   ======== */
+
+*[class~="topic/table"] {
+  display: table;
+}
+
+*[class~="topic/tbody"],
+*[class~="topic/thead"] {
+  display: table-row-group;
+}
+
+*[class~="topic/row"] {
+  display: table-row;
+}
+
+*[class~="topic/entry"] {
+  display: table-cell;
+}
+
+
